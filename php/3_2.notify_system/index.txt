@@ -1,0 +1,68 @@
+交换机:fanout类型
+队列:email和sms都绑定到这个交换机
+消费者:每个都是fair类型，能者多劳+手动ACK
+生产者: $channel->confirm_select(false); 保证到队列收到消息后持久化到硬盘
+
+
+终端1:
+[root@web11 3_2.notify_system]# php email_worker.php 1
+每次请求前sleep1秒
+[*] Waiting for logs. To exit press CTRL+C
+[x] Received 1
+[x] Done
+[x] Received 3
+[x] Done
+[x] Received 4
+[x] Done
+[x] Received 5
+[x] Done
+[x] Received 6
+[x] Done
+[x] Received 7
+[x] Done
+[x] Received 9
+[x] Done
+[x] Received 10
+[x] Done
+
+终端2:
+[root@web11 3_2.notify_system]# php email_worker.php 5
+每次请求前sleep5秒
+[*] Waiting for logs. To exit press CTRL+C
+[x] Received 2
+[x] Done
+[x] Received 8
+[x] Done
+
+终端3:
+[root@web11 3_2.notify_system]# php sms_worker.php 1
+每次请求前sleep1秒
+[*] Waiting for logs. To exit press CTRL+C
+[x] Received 1
+[x] Done
+[x] Received 3
+[x] Done
+[x] Received 4
+[x] Done
+[x] Received 5
+[x] Done
+[x] Received 6
+[x] Done
+[x] Received 7
+[x] Done
+[x] Received 9
+[x] Done
+[x] Received 10
+[x] Done
+
+终端4:
+[root@web11 3_2.notify_system]# php sms_worker.php 5
+每次请求前sleep5秒
+[*] Waiting for logs. To exit press CTRL+C
+[x] Received 2
+[x] Done
+[x] Received 8
+[x] Done
+
+终端5:
+[root@web11 3_2.notify_system]# ./send.sh

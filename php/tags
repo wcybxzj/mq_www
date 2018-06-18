@@ -1,0 +1,1469 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AMQPAbstractCollection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^abstract class AMQPAbstractCollection implements \\Iterator$/;"	c
+AMQPArray	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^class AMQPArray extends AMQPAbstractCollection$/;"	c
+AMQPBasicCancelException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPBasicCancelException.php	/^class AMQPBasicCancelException extends \\Exception implements AMQPExceptionInterface$/;"	c
+AMQPChannel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^class AMQPChannel extends AbstractChannel$/;"	c
+AMQPChannelException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPChannelException.php	/^class AMQPChannelException extends AMQPException$/;"	c
+AMQPConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPConnection.php	/^class AMQPConnection extends AMQPStreamConnection$/;"	c
+AMQPConnectionException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPConnectionException.php	/^class AMQPConnectionException extends AMQPException$/;"	c
+AMQPDecimal	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^class AMQPDecimal$/;"	c
+AMQPException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^class AMQPException extends \\Exception$/;"	c
+AMQPExceptionInterface	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPExceptionInterface.php	/^interface AMQPExceptionInterface$/;"	i
+AMQPIOException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPIOException.php	/^class AMQPIOException extends \\Exception implements AMQPExceptionInterface$/;"	c
+AMQPIOWaitException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPIOWaitException.php	/^class AMQPIOWaitException extends AMQPRuntimeException$/;"	c
+AMQPInvalidArgumentException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPInvalidArgumentException.php	/^class AMQPInvalidArgumentException extends \\RuntimeException implements AMQPExceptionInterface$/;"	c
+AMQPLazyConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^class AMQPLazyConnection extends AMQPStreamConnection$/;"	c
+AMQPLazySocketConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^class AMQPLazySocketConnection extends AMQPSocketConnection$/;"	c
+AMQPLogicException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPLogicException.php	/^class AMQPLogicException extends \\LogicException implements AMQPExceptionInterface$/;"	c
+AMQPMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^class AMQPMessage extends GenericContent$/;"	c
+AMQPOutOfBoundsException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPOutOfBoundsException.php	/^class AMQPOutOfBoundsException extends \\OutOfBoundsException implements AMQPExceptionInterface$/;"	c
+AMQPOutOfRangeException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPOutOfRangeException.php	/^class AMQPOutOfRangeException extends \\OutOfRangeException implements AMQPExceptionInterface$/;"	c
+AMQPProtocolChannelException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolChannelException.php	/^class AMQPProtocolChannelException extends AMQPProtocolException$/;"	c
+AMQPProtocolConnectionException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolConnectionException.php	/^class AMQPProtocolConnectionException extends AMQPProtocolException$/;"	c
+AMQPProtocolException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^class AMQPProtocolException extends \\Exception implements AMQPExceptionInterface$/;"	c
+AMQPReader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^class AMQPReader extends AbstractClient$/;"	c
+AMQPRuntimeException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPRuntimeException.php	/^class AMQPRuntimeException extends \\RuntimeException implements AMQPExceptionInterface$/;"	c
+AMQPSSLConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^class AMQPSSLConnection extends AMQPStreamConnection$/;"	c
+AMQPSocketConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^class AMQPSocketConnection extends AbstractConnection$/;"	c
+AMQPStreamConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^class AMQPStreamConnection extends AbstractConnection$/;"	c
+AMQPTable	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPTable.php	/^class AMQPTable extends AMQPAbstractCollection$/;"	c
+AMQPTimeoutException	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPTimeoutException.php	/^class AMQPTimeoutException extends \\RuntimeException implements AMQPExceptionInterface$/;"	c
+AMQPWriter	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^class AMQPWriter extends AbstractClient$/;"	c
+AMQP_PROTOCOL_HEADER	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $AMQP_PROTOCOL_HEADER = "AMQP\\x01\\x01\\x08\\x00";$/;"	v
+AMQP_PROTOCOL_HEADER	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $AMQP_PROTOCOL_HEADER = "AMQP\\x00\\x00\\x09\\x01";$/;"	v
+AMQP_PROTOCOL_HEADER	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $AMQP_PROTOCOL_HEADER = ' . protocol_header($json_spec) . ";\\n\\n";$/;"	v
+AbstractChannel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^abstract class AbstractChannel$/;"	c
+AbstractClient	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^class AbstractClient$/;"	c
+AbstractConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^class AbstractConnection extends AbstractChannel$/;"	c
+AbstractIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^abstract class AbstractIO$/;"	c
+ArgumentWriter	vendor/php-amqplib/php-amqplib/spec/parser.php	/^class ArgumentWriter$/;"	c
+CLOSE_METHODS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $CLOSE_METHODS = array($/;"	v
+CLOSE_METHODS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $CLOSE_METHODS = array($/;"	v
+CLOSE_METHODS	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $CLOSE_METHODS = ' . close_methods($json_spec) . ";\\n\\n";$/;"	v
+CONTENT_METHODS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $CONTENT_METHODS = array($/;"	v
+CONTENT_METHODS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $CONTENT_METHODS = array($/;"	v
+CONTENT_METHODS	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $CONTENT_METHODS = ' . content_methods($json_spec) . ";\\n\\n";$/;"	v
+ClassLoader	vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c
+ComposerAutoloaderInit29eb473f4a04b72df4437239f1302750	vendor/composer/autoload_real.php	/^class ComposerAutoloaderInit29eb473f4a04b72df4437239f1302750$/;"	c
+ComposerStaticInit29eb473f4a04b72df4437239f1302750	vendor/composer/autoload_static.php	/^class ComposerStaticInit29eb473f4a04b72df4437239f1302750$/;"	c
+Constants080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^class Constants080$/;"	c
+Constants091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^class Constants091$/;"	c
+DebugHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^class DebugHelper$/;"	c
+FRAME_TYPES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $FRAME_TYPES = array($/;"	v
+FRAME_TYPES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $FRAME_TYPES = array($/;"	v
+FRAME_TYPES	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $FRAME_TYPES = ' . frame_types($json_spec) . ";\\n\\n";$/;"	v
+FibonacciRpcClient	rpc_client.php	/^class FibonacciRpcClient$/;"	c
+GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $GLOBAL_METHOD_NAMES = array($/;"	v
+GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $GLOBAL_METHOD_NAMES = array($/;"	v
+GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $GLOBAL_METHOD_NAMES = ' . global_method_names($json_spec) . ";\\n";$/;"	v
+GenericContent	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^abstract class GenericContent$/;"	c
+LIBRARY_PROPERTIES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public static $LIBRARY_PROPERTIES = array($/;"	v
+MethodMap080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap080.php	/^class MethodMap080$/;"	c
+MethodMap091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap091.php	/^class MethodMap091$/;"	c
+MiscHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^class MiscHelper$/;"	c
+PROTOCOL_CONSTANTS_CLASS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public static $PROTOCOL_CONSTANTS_CLASS;$/;"	v
+PROTOCOL_CONSTANTS_CLASS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^        $this->PROTOCOL_CONSTANTS_CLASS = $PROTOCOL_CONSTANTS_CLASS;$/;"	v
+PROTOCOL_CONSTANTS_CLASS	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    protected $PROTOCOL_CONSTANTS_CLASS;$/;"	v
+Protocol080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^class Protocol080$/;"	c
+Protocol091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^class Protocol091$/;"	c
+SSL_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            \/\/ OpenSSL's C library function SSL_write() can balk on buffers > 8192$/;"	f
+STDOUT	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^        if(!defined('STDOUT')) define('STDOUT', fopen('php:\/\/stdout', 'w'));$/;"	d
+SocketIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^class SocketIO extends AbstractIO$/;"	c
+StreamIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^class StreamIO extends AbstractIO$/;"	c
+Wait080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait080.php	/^class Wait080$/;"	c
+Wait091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait091.php	/^class Wait091$/;"	c
+__clone	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function __clone()$/;"	f
+__construct	rpc_client.php	/^    public function __construct()$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function __construct($connection, $channel_id = null, $auto_decode = true)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function __construct(AbstractConnection $connection, $channel_id)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^    public function __construct($/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^    public function __construct($/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^    public function __construct($/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function __construct($/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPBasicCancelException.php	/^    public function __construct($consumerTag)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^    public function __construct($reply_code, $reply_text, $method_sig)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^    public function __construct($reply_code, $reply_text, $method_sig)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function __construct($PROTOCOL_CONSTANTS_CLASS) {$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function __construct($body = '', $properties = array())$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function __construct(array $data = null)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^    public function __construct(array $data = null)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    public function __construct($n, $e)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function __construct($str, AbstractIO $io = null, $timeout = 0)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function __construct()$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^    public function __construct()$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function __construct($properties, $propertyTypes = null)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function __construct($host, $port, $read_timeout, $keepalive = false, $write_timeout = null, $heartbeat = 0)$/;"	f
+__construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function __construct($/;"	f
+__destruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function __destruct()$/;"	f
+_protocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    private static $_protocol = null;$/;"	v
+_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $_timeout = $timeout;$/;"	v
+_types_080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    private static $_types_080 = array($/;"	v
+_types_091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    private static $_types_091 = array($/;"	v
+_types_rabbit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    private static $_types_rabbit = array($/;"	v
+a	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $a = new AMQPArray($a);$/;"	v
+a_name	vendor/php-amqplib/php-amqplib/spec/parser.php	/^            $a_name = '$' . to_snake_case($arg['name']);$/;"	v
+a_type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $a_type = argument_type($domains, $arg);$/;"	v
+accessRequest	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function accessRequest($realm = '\/data', $exclusive = false, $passive = true, $active = true, $write = true, $read = true)$/;"	f
+accessRequest	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function accessRequest($realm = '\/data', $exclusive = false, $passive = true, $active = true, $write = true, $read = true)$/;"	f
+accessRequestOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function accessRequestOk(AMQPReader $reader)$/;"	f
+accessRequestOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function accessRequestOk(AMQPReader $reader)$/;"	f
+access_request	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function access_request($/;"	f
+access_request_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function access_request_ok($reader)$/;"	f
+ack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->ack_handler = $callback;$/;"	v
+ack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $ack_handler;$/;"	v
+active	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $active = false,$/;"	v
+active	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->active = $reader->read_bit();$/;"	v
+active	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->active = true; \/\/ Flow control$/;"	v
+active	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $active;$/;"	v
+add	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addPhpDocParams	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function addPhpDocParams($arguments)$/;"	f
+addPsr4	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+add_method_arguments	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function add_method_arguments($arguments)$/;"	f
+alerts	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->alerts = array();$/;"	v
+alerts	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $alerts;$/;"	v
+allowed_methods	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        return $allowed_methods == null$/;"	v
+amqpMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $amqpMessage = $this->maybe_wait_for_content($method_sig);$/;"	v
+amqpMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $amqpMessage = $this->wait_content();$/;"	v
+amqpMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $amqpMessage = null;$/;"	v
+amqp_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $amqp_method = $this->methodMap->get_method($method_sig);$/;"	v
+amqp_method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $this->amqp_method_sig = $method_sig;$/;"	v
+amqp_method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^    public $amqp_method_sig;$/;"	v
+amqp_method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $this->amqp_method_sig = $method_sig;$/;"	v
+amqp_method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^    public $amqp_method_sig;$/;"	v
+amqp_protocol_header	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->amqp_protocol_header = $c::$AMQP_PROTOCOL_HEADER;$/;"	v
+amqp_protocol_header	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $amqp_protocol_header;$/;"	v
+amqp_reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $this->amqp_reply_code = $reply_code; \/\/ redundant, but kept for BC$/;"	v
+amqp_reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^    public $amqp_reply_code;$/;"	v
+amqp_reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $this->amqp_reply_code = $reply_code; \/\/ redundant, but kept for BC$/;"	v
+amqp_reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^    public $amqp_reply_code;$/;"	v
+amqp_reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $this->amqp_reply_text = $reply_text; \/\/ redundant, but kept for BC$/;"	v
+amqp_reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^    public $amqp_reply_text;$/;"	v
+amqp_reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $this->amqp_reply_text = $reply_text; \/\/ redundant, but kept for BC$/;"	v
+amqp_reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^    public $amqp_reply_text;$/;"	v
+apcuPrefix	vendor/composer/ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && ini_get('apc.enabled') ? $apcuPrefix : null;$/;"	v
+apcuPrefix	vendor/composer/ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $args = $this->extract_args($payload);$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function prepare_method_frame($method_sig, $args = '', $pkt = null)$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function send_method_frame($method_sig, $args = '')$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $args = $args->getvalue();$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $args = new AMQPWriter();$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function prepare_channel_method_frame($channel, $method_sig, $args = '', $pkt = null)$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function send_channel_method_frame($channel, $method_sig, $args = '', $pkt = null)$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $this->args = array($reply_code, $reply_text, $method_sig, $mn);$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^    public $args;$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $this->args = array($reply_code, $reply_text, $method_sig, $mn);$/;"	v
+args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^    public $args;$/;"	v
+args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $args = array(0, $json_spec['major-version'], $json_spec['minor-version'], $json_spec['revision']);$/;"	v
+args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $args = array(1, 1, $json_spec['major-version'], $json_spec['minor-version']);$/;"	v
+argumentWriter	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$argumentWriter = new ArgumentWriter();$/;"	v
+argument_default_val	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function argument_default_val($arg)$/;"	f
+argument_type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function argument_type($domains, $arg)$/;"	f
+arguments	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $arguments = array()$/;"	v
+arguments	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $arguments = array(),$/;"	v
+arrayLength	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $arrayLength = $this->read_php_int();$/;"	v
+asBCvalue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    public function asBCvalue()$/;"	f
+ascii	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $ascii = '';$/;"	v
+auto_decode	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->auto_decode = $auto_decode;$/;"	v
+auto_decode	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $auto_decode;$/;"	v
+auto_decode	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->auto_decode = false;$/;"	v
+auto_decode	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $auto_decode;$/;"	v
+auto_delete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $auto_delete = true,$/;"	v
+b	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $b = $b ? 1 : 0;$/;"	v
+baseDir	vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+basicAck	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicAck($delivery_tag = 0, $multiple = false)$/;"	f
+basicAck	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicAck($delivery_tag = 0, $multiple = false)$/;"	f
+basicCancel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicCancel($consumer_tag, $nowait = false)$/;"	f
+basicCancel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicCancel($consumer_tag, $nowait = false)$/;"	f
+basicCancelOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicCancelOk(AMQPReader $reader)$/;"	f
+basicCancelOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicCancelOk(AMQPReader $reader)$/;"	f
+basicConsume	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false)$/;"	f
+basicConsume	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicConsume($ticket = 0, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false, $arguments = array())$/;"	f
+basicConsumeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicConsumeOk(AMQPReader $reader)$/;"	f
+basicConsumeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicConsumeOk(AMQPReader $reader)$/;"	f
+basicDeliver	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key)$/;"	f
+basicDeliver	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key)$/;"	f
+basicGet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicGet($ticket = 1, $queue = '', $no_ack = false)$/;"	f
+basicGet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicGet($ticket = 0, $queue = '', $no_ack = false)$/;"	f
+basicGetEmpty	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicGetEmpty(AMQPReader $reader)$/;"	f
+basicGetEmpty	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicGetEmpty(AMQPReader $reader)$/;"	f
+basicGetOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicGetOk(AMQPReader $reader)$/;"	f
+basicGetOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicGetOk(AMQPReader $reader)$/;"	f
+basicNack	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicNack($delivery_tag = 0, $multiple = false, $requeue = true)$/;"	f
+basicPublish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicPublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	f
+basicPublish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicPublish($ticket = 0, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	f
+basicQos	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	f
+basicQos	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	f
+basicQosOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicQosOk(AMQPReader $reader)$/;"	f
+basicQosOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicQosOk(AMQPReader $reader)$/;"	f
+basicRecover	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicRecover($requeue = false)$/;"	f
+basicRecover	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicRecover($requeue = false)$/;"	f
+basicRecoverAsync	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicRecoverAsync($requeue = false)$/;"	f
+basicRecoverAsync	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicRecoverAsync($requeue = false)$/;"	f
+basicRecoverOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function basicRecoverOk(AMQPReader $reader)$/;"	f
+basicRecoverOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function basicRecoverOk(AMQPReader $reader)$/;"	f
+basicReject	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicReject($delivery_tag, $requeue = true)$/;"	f
+basicReject	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicReject($delivery_tag, $requeue = true)$/;"	f
+basicReturn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicReturn($reply_code, $reply_text = '', $exchange, $routing_key)$/;"	f
+basicReturn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicReturn($reply_code, $reply_text = '', $exchange, $routing_key)$/;"	f
+basic_ack	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_ack($delivery_tag, $multiple = false)$/;"	f
+basic_ack_from_server	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_ack_from_server(AMQPReader $reader)$/;"	f
+basic_cancel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_cancel($consumer_tag, $nowait = false, $noreturn = false)$/;"	f
+basic_cancel_from_server	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_cancel_from_server(AMQPReader $reader)$/;"	f
+basic_cancel_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_cancel_ok($reader)$/;"	f
+basic_consume	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_consume($/;"	f
+basic_consume_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_consume_ok($reader)$/;"	f
+basic_deliver	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_deliver($reader, $message)$/;"	f
+basic_get	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_get($queue = '', $no_ack = false, $ticket = null)$/;"	f
+basic_get_empty	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_get_empty($reader)$/;"	f
+basic_get_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_get_ok($reader, $message)$/;"	f
+basic_nack	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_nack($delivery_tag, $multiple = false, $requeue = false)$/;"	f
+basic_nack_from_server	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_nack_from_server($reader)$/;"	f
+basic_publish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_publish($/;"	f
+basic_qos	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_qos($prefetch_size, $prefetch_count, $a_global)$/;"	f
+basic_qos_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_qos_ok($reader)$/;"	f
+basic_recover	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_recover($requeue = false)$/;"	f
+basic_recover_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_recover_ok($reader)$/;"	f
+basic_reject	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_reject($delivery_tag, $requeue)$/;"	f
+basic_return	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function basic_return($reader, $message)$/;"	f
+basic_return_callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->basic_return_callback = $callback;$/;"	v
+basic_return_callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $basic_return_callback;$/;"	v
+batch_basic_publish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function batch_basic_publish($/;"	f
+batch_messages	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->batch_messages = array();$/;"	v
+batch_messages	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $batch_messages = array();$/;"	v
+binding_keys	receive_logs_topic.php	/^$binding_keys = array_slice($argv, 1);$/;"	v
+bit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $bit = $bit ? 1 : 0;$/;"	v
+bit_args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $this->bit_args = array();$/;"	v
+bit_args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    protected $bit_args = array();$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $this->bitcount = 8;$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->bitcount = $this->bits = 0;$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $bitcount;$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $this->bitcount = 0;$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $this->bitcount = 0;$/;"	v
+bitcount	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    protected $bitcount;$/;"	v
+bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $this->bits = ord($this->rawread(1));$/;"	v
+bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $bits;$/;"	v
+bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $this->bits = array();$/;"	v
+bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $this->bits = array();$/;"	v
+bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    protected $bits;$/;"	v
+body	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^        $this->body = $body;$/;"	v
+body	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public $body;$/;"	v
+bodyChunks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $bodyChunks = array();$/;"	v
+bodyLength	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $bodyLength = mb_strlen($body,'ASCII');$/;"	v
+bodyReceivedBytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $bodyReceivedBytes = bcadd($bodyReceivedBytes, mb_strlen($payload, 'ASCII'), 0);$/;"	v
+bodyReceivedBytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $bodyReceivedBytes = 0;$/;"	v
+body_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^        $this->body_size = (int) $body_size;$/;"	v
+body_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public $body_size;$/;"	v
+buf	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $buf = socket_read($this->sock, $n - $read);$/;"	v
+buf	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $buf = socket_read($this->sock, $n);$/;"	v
+buffer	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^                $buffer = fread($this->sock, ($len - $read));$/;"	v
+buffer	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^                $buffer = fwrite($this->sock, mb_substr($data, $written, 8192, 'ASCII'), 8192);$/;"	v
+build_method_signature	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function build_method_signature($payload)$/;"	f
+c	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $c = self::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+cache_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $cache_key = sprintf($/;"	v
+call	rpc_client.php	/^    public function call($n)$/;"	f
+call_read_argument	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function call_read_argument($domains, $arg)$/;"	f
+call_write_argument	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    public function call_write_argument($domains, $arg)$/;"	f
+callback	receive.php	/^$callback = function ($msg) {$/;"	v
+callback	receive_logs.php	/^$callback = function ($msg) {$/;"	v
+callback	receive_logs_direct.php	/^$callback = function ($msg) {$/;"	v
+callback	receive_logs_topic.php	/^$callback = function ($msg) {$/;"	v
+callback	rpc_server.php	/^$callback = function ($req) {$/;"	v
+callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $callback = $this->basic_return_callback;$/;"	v
+callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $callback = null,$/;"	v
+callback	worker.php	/^$callback = function ($msg) {$/;"	v
+callback_queue	rpc_client.php	/^    private $callback_queue;$/;"	v
+callbacks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->callbacks = array();$/;"	v
+callbacks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public $callbacks = array();$/;"	v
+can	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^ * This class can read from a string or from a stream$/;"	c
+canDispatchPcntlSignal	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->canDispatchPcntlSignal = $this->isPcntlSignalEnabled();$/;"	v
+canDispatchPcntlSignal	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    private $canDispatchPcntlSignal;$/;"	v
+capabilities	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_open($virtual_host, $capabilities = '', $insist = false)$/;"	v
+capabilities	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionOpen($virtual_host = '\/', $capabilities = '', $insist = false)$/;"	v
+capabilities	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionOpen($virtual_host = '\/', $capabilities = '', $insist = false)$/;"	v
+ch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $ch = $this->wait_frame_reader->read_octet();$/;"	v
+ch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $ch = new AMQPChannel($this->connection, $channel_id);$/;"	v
+challenge	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $challenge = $args->read_longstr();$/;"	v
+channel	emit_log.php	/^$channel = $connection->channel();$/;"	v
+channel	emit_log_direct.php	/^$channel = $connection->channel();$/;"	v
+channel	emit_log_topic.php	/^$channel = $connection->channel();$/;"	v
+channel	new_task.php	/^$channel = $connection->channel();$/;"	v
+channel	receive.php	/^$channel = $connection->channel();$/;"	v
+channel	receive_logs.php	/^$channel = $connection->channel();$/;"	v
+channel	receive_logs_direct.php	/^$channel = $connection->channel();$/;"	v
+channel	receive_logs_topic.php	/^$channel = $connection->channel();$/;"	v
+channel	rpc_client.php	/^        $this->channel = $this->connection->channel();$/;"	v
+channel	rpc_client.php	/^    private $channel;$/;"	v
+channel	rpc_server.php	/^$channel = $connection->channel();$/;"	v
+channel	send.php	/^$channel = $connection->channel();$/;"	v
+channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function channel($channel_id = null)$/;"	f
+channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function channel($channel_id = null)$/;"	f
+channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $channel = $this->wait_frame_reader->read_short();$/;"	v
+channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function channel($channel_id = null)$/;"	f
+channel	worker.php	/^$channel = $connection->channel();$/;"	v
+channelAlert	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelAlert($reply_code, $reply_text = '', $details = array())$/;"	f
+channelClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
+channelClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
+channelCloseOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function channelCloseOk(AMQPReader $reader)$/;"	f
+channelCloseOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function channelCloseOk(AMQPReader $reader)$/;"	f
+channelFlow	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelFlow($active)$/;"	f
+channelFlow	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function channelFlow($active)$/;"	f
+channelFlowOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function channelFlowOk(AMQPReader $reader)$/;"	f
+channelFlowOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function channelFlowOk(AMQPReader $reader)$/;"	f
+channelOpen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelOpen($out_of_band = '')$/;"	f
+channelOpen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function channelOpen($out_of_band = '')$/;"	f
+channelOpenOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function channelOpenOk(AMQPReader $reader)$/;"	f
+channelOpenOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function channelOpenOk(AMQPReader $reader)$/;"	f
+channel_alert	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_alert($reader)$/;"	f
+channel_close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_close($reader)$/;"	f
+channel_close_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_close_ok($reader)$/;"	f
+channel_flow	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_flow($reader)$/;"	f
+channel_flow_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_flow_ok($reader)$/;"	f
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $channel_id = $connection->get_free_channel_id();$/;"	v
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->channel_id = $this->connection = null;$/;"	v
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function __construct($connection, $channel_id = null, $auto_decode = true)$/;"	v
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->channel_id = $channel_id;$/;"	v
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $channel_id;$/;"	v
+channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $channel_id = $channel_id ? $channel_id : $this->get_free_channel_id();$/;"	v
+channel_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->channel_max = $v;$/;"	v
+channel_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $channel_max = 65535;$/;"	v
+channel_open_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function channel_open_ok($reader)$/;"	f
+channels	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $this->channels = array();$/;"	v
+channels	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public $channels = array();$/;"	v
+checkDataTypeIsSupported	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function checkDataTypeIsSupported($type, $return = true)$/;"	f
+check_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function check_heartbeat();$/;"	f
+check_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function check_heartbeat()$/;"	f
+check_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function check_heartbeat()$/;"	f
+chnk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $chnk = (int) bcmod($x, 65536);$/;"	v
+class	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $class = self::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+classBody	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$classBody = '';$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	vendor/composer/autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+class_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $class_id = $reader->read_short();$/;"	v
+class_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $class_id = $this->wait_content_reader->read_short();$/;"	v
+class_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $class_id = $reader->read_short();$/;"	v
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function close($reply_code = 0, $reply_text = '', $method_sig = array(0, 0))$/;"	f
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function close($reply_code = 0, $reply_text = '', $method_sig = array(0, 0))$/;"	f
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function close()$/;"	f
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function close();$/;"	f
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function close()$/;"	f
+close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function close()$/;"	f
+closeChannels	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function closeChannels()$/;"	f
+close_input	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function close_input()$/;"	f
+close_methods	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function close_methods($json_spec)$/;"	f
+close_on_destruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->close_on_destruct = (bool) $close;$/;"	v
+close_on_destruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $close_on_destruct = true;$/;"	v
+close_socket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function close_socket()$/;"	f
+code	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $code = '';$/;"	v
+collectionsAsObjects	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_value($fieldType, $collectionsAsObjects = false)$/;"	v
+conf	config.php	/^$conf = [$/;"	v
+confirmSelect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function confirmSelect($nowait = false)$/;"	f
+confirmSelectOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function confirmSelectOk(AMQPReader $reader)$/;"	f
+confirm_select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function confirm_select($nowait = false)$/;"	f
+confirm_select_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function confirm_select_ok($reader)$/;"	f
+connect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connect()$/;"	f
+connect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function connect();$/;"	f
+connect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function connect()$/;"	f
+connect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function connect()$/;"	f
+connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function connectOnConstruct()$/;"	f
+connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function connectOnConstruct()$/;"	f
+connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function connectOnConstruct()$/;"	f
+connection	emit_log.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	emit_log_direct.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	emit_log_topic.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	new_task.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	receive.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	receive_logs.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	receive_logs_direct.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	receive_logs_topic.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	rpc_client.php	/^        $this->connection = new AMQPStreamConnection($/;"	v
+connection	rpc_client.php	/^    private $connection;$/;"	v
+connection	rpc_server.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connection	send.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        if ($this->is_open === false || $this->connection === null) {$/;"	v
+connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->connection = $connection;$/;"	v
+connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $connection;$/;"	v
+connection	worker.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
+connectionBlocked	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionBlocked($reason = '')$/;"	f
+connectionClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
+connectionClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
+connectionCloseOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function connectionCloseOk(AMQPReader $reader)$/;"	f
+connectionCloseOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionCloseOk(AMQPReader $reader)$/;"	f
+connectionOpen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionOpen($virtual_host = '\/', $capabilities = '', $insist = false)$/;"	f
+connectionOpen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionOpen($virtual_host = '\/', $capabilities = '', $insist = false)$/;"	f
+connectionOpenOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function connectionOpenOk(AMQPReader $reader)$/;"	f
+connectionOpenOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionOpenOk(AMQPReader $reader)$/;"	f
+connectionRedirect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionRedirect($host, $known_hosts = '')$/;"	f
+connectionSecure	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionSecure($challenge)$/;"	f
+connectionSecure	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionSecure($challenge)$/;"	f
+connectionSecureOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function connectionSecureOk(AMQPReader $reader)$/;"	f
+connectionSecureOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionSecureOk(AMQPReader $reader)$/;"	f
+connectionStart	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionStart($version_major = 0, $version_minor = 8, $server_properties, $mechanisms = 'PLAIN', $locales = 'en_US')$/;"	f
+connectionStart	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionStart($version_major = 0, $version_minor = 9, $server_properties, $mechanisms = 'PLAIN', $locales = 'en_US')$/;"	f
+connectionStartOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function connectionStartOk(AMQPReader $reader)$/;"	f
+connectionStartOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionStartOk(AMQPReader $reader)$/;"	f
+connectionTune	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionTune($channel_max = 0, $frame_max = 0, $heartbeat = 0)$/;"	f
+connectionTune	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionTune($channel_max = 0, $frame_max = 0, $heartbeat = 0)$/;"	f
+connectionTuneOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function connectionTuneOk(AMQPReader $reader)$/;"	f
+connectionTuneOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionTuneOk(AMQPReader $reader)$/;"	f
+connectionUnblocked	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function connectionUnblocked(AMQPReader $reader)$/;"	f
+connection_block_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->connection_block_handler = $callback;$/;"	v
+connection_block_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    private $connection_block_handler;$/;"	v
+connection_blocked	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_blocked(AMQPReader $args)$/;"	f
+connection_close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_close(AMQPReader $reader)$/;"	f
+connection_close_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_close_ok($args)$/;"	f
+connection_open_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_open_ok($args)$/;"	f
+connection_redirect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_redirect($args)$/;"	f
+connection_secure	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_secure($args)$/;"	f
+connection_start	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_start($args)$/;"	f
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $connection_timeout = 3.0,$/;"	v
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $connection_timeout = 0$/;"	v
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->connection_timeout = $connection_timeout;$/;"	v
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $connection_timeout ;$/;"	v
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->connection_timeout = $connection_timeout;$/;"	v
+connection_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $connection_timeout;$/;"	v
+connection_tune	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_tune($args)$/;"	f
+connection_unblock_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->connection_unblock_handler = $callback;$/;"	v
+connection_unblock_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    private $connection_unblock_handler;$/;"	v
+connection_unblocked	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function connection_unblocked(AMQPReader $args)$/;"	f
+construct_params	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $this->construct_params = func_get_args();$/;"	v
+construct_params	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->construct_params = func_get_args();$/;"	v
+construct_params	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $construct_params;$/;"	v
+consumerTag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $consumerTag = $reader->read_shortstr();$/;"	v
+consumerTag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPBasicCancelException.php	/^        $this->consumerTag = $consumerTag;$/;"	v
+consumerTag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPBasicCancelException.php	/^    public $consumerTag;$/;"	v
+consumer_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $consumer_count = $reader->read_long();$/;"	v
+consumer_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $consumer_tag = $this->wait(array($/;"	v
+consumer_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $consumer_tag = $reader->read_shortstr();$/;"	v
+consumer_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $consumer_tag = '',$/;"	v
+content_encoding	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public $content_encoding;$/;"	v
+content_methods	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function content_methods($json_spec)$/;"	f
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $context = null,$/;"	v
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^                $this->context = stream_context_create();$/;"	v
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^                $this->context = stream_context_create(array($/;"	v
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $context = null,$/;"	v
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->context = $context;$/;"	v
+context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $context;$/;"	v
+corr_id	rpc_client.php	/^        $this->corr_id = uniqid();$/;"	v
+corr_id	rpc_client.php	/^    private $corr_id;$/;"	v
+correctEndianness	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^    protected function correctEndianness($byteStr)$/;"	f
+createMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function createMessage($propertyReader, $contentReader)$/;"	f
+create_ssl_context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^    private function create_ssl_context($options)$/;"	f
+current	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function current()$/;"	f
+currentTimeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $currentTimeout = $this->input->getTimeout();$/;"	v
+data	emit_log.php	/^    $data = "info: Hello World!";$/;"	v
+data	emit_log.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	emit_log_direct.php	/^    $data = "Hello World!";$/;"	v
+data	emit_log_direct.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
+data	emit_log_topic.php	/^    $data = "Hello World!";$/;"	v
+data	emit_log_topic.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
+data	new_task.php	/^    $data = "Hello World!";$/;"	v
+data	new_task.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $this->data = $this->encodeCollection($data);$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected $data = array();$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function __construct(array $data = null)$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^    public function __construct(array $data = null)$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $data = $data->getvalue();$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $data = new self();$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $data = array();$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^                $data = mb_substr($data, $sent, mb_strlen($data, 'ASCII') - $sent, 'ASCII');$/;"	v
+data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $data = '';$/;"	v
+debug	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->debug = new DebugHelper($c);$/;"	v
+debug	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $debug;$/;"	v
+debug	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^        $this->debug = defined('AMQP_DEBUG') ? AMQP_DEBUG : false;$/;"	v
+debug	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    protected $debug;$/;"	v
+debug_allowed_methods	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_allowed_methods($allowed_methods) {$/;"	f
+debug_connection_start	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_connection_start($version_major, $version_minor, $server_properties, $mechanisms, $locales) {$/;"	f
+debug_hexdump	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_hexdump($data) {$/;"	f
+debug_method_signature	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_method_signature($msg, $method_sig) {$/;"	f
+debug_method_signature1	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_method_signature1($method_sig) {$/;"	f
+debug_msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    public function debug_msg($msg) {$/;"	f
+debug_output	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^        $this->debug_output = defined('AMQP_DEBUG_OUTPUT') ? AMQP_DEBUG_OUTPUT : STDOUT;$/;"	v
+debug_output	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    protected $debug_output;$/;"	v
+decodeCollection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final protected function decodeCollection(array $val)$/;"	f
+decodeValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function decodeValue($val, $type)$/;"	f
+default_ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->default_ticket = $reader->read_short();$/;"	v
+default_ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->default_ticket = 0;$/;"	v
+default_ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $default_ticket;$/;"	v
+default_value_to_string	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function default_value_to_string($value)$/;"	f
+deferred	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $deferred = $this->process_deferred_methods($allowed_methods);$/;"	v
+delivery_info	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public $delivery_info = array();$/;"	v
+delivery_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $delivery_tag = $reader->read_longlong();$/;"	v
+details	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $details = $reader->read_table();$/;"	v
+disableHeartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function disableHeartbeat()$/;"	f
+dispatch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $dispatch = true;$/;"	v
+dispatch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $dispatch = false;$/;"	v
+dispatch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function dispatch($method_sig, $args, $amqpMessage)$/;"	f
+dispatch_deferred_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function dispatch_deferred_method($queued_method)$/;"	f
+dispatch_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->dispatch_reader = new AMQPReader(null);$/;"	v
+dispatch_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $dispatch_reader;$/;"	v
+dispatch_to_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function dispatch_to_handler($handler, array $arguments)$/;"	f
+do_close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function do_close()$/;"	f
+do_close	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function do_close()$/;"	f
+does	vendor/composer/ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+domain_to_type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function domain_to_type($domains, $domain)$/;"	f
+dtxSelect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function dtxSelect()$/;"	f
+dtxSelectOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function dtxSelectOk(AMQPReader $reader)$/;"	f
+dtxStart	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function dtxStart($dtx_identifier)$/;"	f
+dtxStartOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function dtxStartOk(AMQPReader $reader)$/;"	f
+dump	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $dump = $htmloutput ? '<pre>' : '';$/;"	v
+dump_table	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function dump_table($table)$/;"	f
+durable	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $durable = false,$/;"	v
+e	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^        $this->e = $e;$/;"	v
+e	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    protected $e;$/;"	v
+e	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $e = $this->read_octet();$/;"	v
+enable_keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected function enable_keepalive()$/;"	f
+enable_keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected function enable_keepalive()$/;"	f
+encodeBool	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeBool($val)$/;"	f
+encodeCollection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final protected function encodeCollection(array $val)$/;"	f
+encodeFloat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeFloat($val)$/;"	f
+encodeInt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeInt($val)$/;"	f
+encodeString	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeString($val)$/;"	f
+encodeValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeValue($val)$/;"	f
+encodeVoid	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected function encodeVoid()$/;"	f
+endOffset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $endOffset = $this->offset + $arrayLength;$/;"	v
+errcontext	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function error_handler($errno, $errstr, $errfile, $errline, $errcontext = null)$/;"	v
+errno	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $errno = socket_last_error($this->sock);$/;"	v
+error_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function error_handler($errno, $errstr, $errfile, $errline, $errcontext = null)$/;"	f
+errstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $errstr = socket_strerror($errno);$/;"	v
+errstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $errstr = $errno = null;$/;"	v
+ev	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $ev = $this->encodeString((string) $val);$/;"	v
+ev	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $ev = array(self::T_INT_LONG, $val);$/;"	v
+ev	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $ev = array(self::T_INT_LONGLONG, $val);$/;"	v
+except	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $except = null;$/;"	v
+except	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $except = null;$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $exchange = isset($m[1]) ? $m[1] : '';$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $exchange = $reader->read_shortstr();$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $exchange = '',$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicPublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function filePublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false, $identifier)$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamPublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	v
+exchange	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicPublish($ticket = 0, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	v
+exchangeBind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeBind($ticket = 0, $destination, $source, $routing_key = '', $nowait = false, $arguments = array())$/;"	f
+exchangeBindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function exchangeBindOk(AMQPReader $reader)$/;"	f
+exchangeDeclare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function exchangeDeclare($ticket = 1, $exchange, $type = 'direct', $passive = false, $durable = false, $auto_delete = false, $internal = false, $nowait = false, $arguments = array())$/;"	f
+exchangeDeclare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeDeclare($ticket = 0, $exchange, $type = 'direct', $passive = false, $durable = false, $auto_delete = false, $internal = false, $nowait = false, $arguments = array())$/;"	f
+exchangeDeclareOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function exchangeDeclareOk(AMQPReader $reader)$/;"	f
+exchangeDeclareOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function exchangeDeclareOk(AMQPReader $reader)$/;"	f
+exchangeDelete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function exchangeDelete($ticket = 1, $exchange, $if_unused = false, $nowait = false)$/;"	f
+exchangeDelete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeDelete($ticket = 0, $exchange, $if_unused = false, $nowait = false)$/;"	f
+exchangeDeleteOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function exchangeDeleteOk(AMQPReader $reader)$/;"	f
+exchangeDeleteOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function exchangeDeleteOk(AMQPReader $reader)$/;"	f
+exchangeUnbind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeUnbind($ticket = 0, $destination, $source, $routing_key = '', $nowait = false, $arguments = array())$/;"	f
+exchangeUnbindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function exchangeUnbindOk(AMQPReader $reader)$/;"	f
+exchange_bind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function exchange_bind($/;"	f
+exchange_bind_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function exchange_bind_ok($reader)$/;"	f
+exchange_declare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function exchange_declare($/;"	f
+exchange_declare_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function exchange_declare_ok($reader)$/;"	f
+exchange_delete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function exchange_delete($/;"	f
+exchange_delete_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function exchange_delete_ok($reader)$/;"	f
+exchange_unbind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function exchange_unbind($/;"	f
+exchange_unbind_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function exchange_unbind_ok($reader)$/;"	f
+exchangename	config.php	/^$exchangename = 'kd_sms_send_ex'; \/\/交换机名$/;"	v
+exclusive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $exclusive = false,$/;"	v
+exclusive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function accessRequest($realm = '\/data', $exclusive = false, $passive = true, $active = true, $write = true, $read = true)$/;"	v
+exclusive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function accessRequest($realm = '\/data', $exclusive = false, $passive = true, $active = true, $write = true, $read = true)$/;"	v
+export_property	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function export_property($ret)$/;"	f
+extract_args	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function extract_args($payload)$/;"	f
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+fh	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $fh = fopen('\/tmp\/bytes', 'wb');$/;"	v
+fib	rpc_server.php	/^function fib($n)$/;"	f
+fibonacci_rpc	rpc_client.php	/^$fibonacci_rpc = new FibonacciRpcClient();$/;"	v
+fieldType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $fieldType = AMQPAbstractCollection::getDataTypeForSymbol($this->rawread(1));$/;"	v
+fieldValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $fieldValue = $this->read_value($fieldType, $returnObject);$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	vendor/composer/ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	vendor/composer/ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+fileAck	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileAck($delivery_tag = 0, $multiple = false)$/;"	f
+fileCancel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileCancel($consumer_tag, $nowait = false)$/;"	f
+fileCancelOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function fileCancelOk(AMQPReader $reader)$/;"	f
+fileConsume	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false)$/;"	f
+fileConsumeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function fileConsumeOk(AMQPReader $reader)$/;"	f
+fileDeliver	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key, $identifier)$/;"	f
+fileOpen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileOpen($identifier, $content_size)$/;"	f
+fileOpenOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function fileOpenOk(AMQPReader $reader)$/;"	f
+filePublish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function filePublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false, $identifier)$/;"	f
+fileQos	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	f
+fileQosOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function fileQosOk(AMQPReader $reader)$/;"	f
+fileReject	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileReject($delivery_tag, $requeue = true)$/;"	f
+fileReturn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileReturn($reply_code = 200, $reply_text = '', $exchange, $routing_key)$/;"	f
+fileStage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileStage()$/;"	f
+files	vendor/composer/ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+findFile	vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	vendor/composer/ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	vendor/composer/ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+flag_bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^                $flag_bits = 0;$/;"	v
+flag_bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^                $flag_bits = array_shift($flags);$/;"	v
+flag_bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^            $flag_bits = $reader->read_short();$/;"	v
+flag_bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $flag_bits = 0;$/;"	v
+flags	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $flags = array();$/;"	v
+flow	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function flow($active)$/;"	f
+flushbits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    private function flushbits()$/;"	f
+for	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^ * Abstract base class for AMQP content.  Subclasses should override$/;"	c
+frame_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->frame_max = $v;$/;"	v
+frame_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $frame_max = 131072;$/;"	v
+frame_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionTune($channel_max = 0, $frame_max = 0, $heartbeat = 0)$/;"	v
+frame_max	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionTune($channel_max = 0, $frame_max = 0, $heartbeat = 0)$/;"	v
+frame_queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->frame_queue = array(); \/\/ Lower level queue for frames$/;"	v
+frame_queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $frame_queue;$/;"	v
+frame_type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $frame_type = $this->wait_frame_reader->read_octet();$/;"	v
+frame_type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            if ($frame_channel === 0 && $frame_type === 8) {$/;"	v
+frame_types	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function frame_types($json_spec)$/;"	f
+ftype	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $ftype = AMQPAbstractCollection::getDataTypeForSymbol($ftypeSym = $table_data->rawread(1));$/;"	v
+functions	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $functions = array($/;"	v
+get	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function get($name)$/;"	f
+getApcuPrefix	vendor/composer/ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getArguments	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function getArguments($arguments)$/;"	f
+getBody	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function getBody()$/;"	f
+getBodySize	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function getBodySize()$/;"	f
+getChannelId	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function getChannelId()$/;"	f
+getClassMap	vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	f
+getConnection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function getConnection()$/;"	f
+getContentEncoding	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function getContentEncoding()$/;"	f
+getDataTypeForSymbol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function getDataTypeForSymbol($symbol)$/;"	f
+getE	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    public function getE()$/;"	f
+getFallbackDirs	vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function getIO()$/;"	f
+getIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function getIO()$/;"	f
+getIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function getIO()$/;"	f
+getInitializer	vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getLoader	vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	f
+getLongMSB	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    private static function getLongMSB($longInt)$/;"	f
+getMethodQueue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function getMethodQueue()$/;"	f
+getN	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    public function getN()$/;"	f
+getNativeData	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public function getNativeData()$/;"	f
+getPrefixes	vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getProtocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function getProtocol()$/;"	f
+getProtocolVersion	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public static function getProtocolVersion()$/;"	f
+getServerProperties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function getServerProperties()$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function getSocket()$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function getSocket()$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function getSocket()$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function getSocket();$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function getSocket()$/;"	f
+getSocket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function getSocket()$/;"	f
+getSupportedDataTypes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function getSupportedDataTypes()$/;"	f
+getSymbolForDataType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function getSymbolForDataType($type)$/;"	f
+getTicket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function getTicket($ticket)$/;"	f
+getTimeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function getTimeout()$/;"	f
+getType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    abstract public function getType();$/;"	f
+getType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^    final public function getType()$/;"	f
+getType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPTable.php	/^    final public function getType()$/;"	f
+getUseIncludePath	vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+get_and_unset_message	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function get_and_unset_message($index)$/;"	f
+get_free_channel_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function get_free_channel_id()$/;"	f
+get_keys_less_or_equal	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function get_keys_less_or_equal(array $messages, $value)$/;"	f
+get_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap080.php	/^    public function get_method($method_sig)$/;"	f
+get_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap091.php	/^    public function get_method($method_sig)$/;"	f
+get_method	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$classBody .= 'public function get_method($method_sig)' . "\\n{\\n";$/;"	f
+get_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function get_properties()$/;"	f
+get_socket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function get_socket()$/;"	f
+get_type_phpdoc	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function get_type_phpdoc($type, $variableName = null, $returnType = null)$/;"	f
+get_wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait080.php	/^    public function get_wait($method)$/;"	f
+get_wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait091.php	/^    public function get_wait($method)$/;"	f
+get_wait	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$classBody .= 'public function get_wait($method)' . "\\n{\\n";$/;"	f
+getvalue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function getvalue()$/;"	f
+global_method_names	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function global_method_names($json_spec)$/;"	f
+has	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function has($name)$/;"	f
+hasPendingMethods	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function hasPendingMethods()$/;"	f
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $heartbeat = 0$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $heartbeat = 0$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->heartbeat = $args->read_short();$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $heartbeat = 0,$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->heartbeat = $heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->heartbeat = $heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $heartbeat = 0$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->heartbeat = $heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->heartbeat = $this->initial_heartbeat;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->heartbeat = 0;$/;"	v
+heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $heartbeat;$/;"	v
+hexFormat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $hexFormat = $uppercase ? 'X' : 'x';$/;"	v
+hexdump	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function hexdump($data, $htmloutput = true, $uppercase = false, $return = false)$/;"	f
+hexi	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                $hexi = $ascii = '';$/;"	v
+hexi	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $hexi = '';$/;"	v
+hi	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $hi = sprintf('%u', $hi);$/;"	v
+hi	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^                $hi = $n < 0 ? -1 : 0;$/;"	v
+hi	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^                $hi = 0;$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $host = $this->x_open($this->vhost, '', $this->insist);$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $host = $args->read_shortstr();$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->host = $host;$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $host;$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->host = $host;$/;"	v
+host	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $host;$/;"	v
+htmloutput	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^                MiscHelper::hexdump($data, $htmloutput = false, $uppercase = true, $return = true)$/;"	v
+htmloutput	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function hexdump($data, $htmloutput = true, $uppercase = false, $return = false)$/;"	v
+i	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^            if (++$j === 16 || $i === $len - 1) {$/;"	v
+if_unused	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $if_unused = false,$/;"	v
+if_unused	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_delete($queue = '', $if_unused = false, $if_empty = false, $nowait = false, $ticket = null)$/;"	v
+if_unused	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function exchangeDelete($ticket = 1, $exchange, $if_unused = false, $nowait = false)$/;"	v
+if_unused	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeDelete($ticket = 0, $exchange, $if_unused = false, $nowait = false)$/;"	v
+immediate	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $immediate = isset($m[4]) ? $m[4] : false;$/;"	v
+immediate	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $immediate = false,$/;"	v
+in	vendor/composer/ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+in	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^     * These parameters will be passed to function in case of basic_return:$/;"	f
+includeFile	vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f
+indent	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function indent($s, $level = 1, $chars = "    ")$/;"	f
+info	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $info = stream_get_meta_data($this->sock);$/;"	v
+initial_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->initial_heartbeat = $heartbeat;$/;"	v
+initial_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    private $initial_heartbeat;$/;"	v
+input	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $this->input = new AMQPReader(null, $this->getIO());$/;"	v
+input	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->input = null;$/;"	v
+input	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $input;$/;"	v
+insist	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $insist = false,$/;"	v
+insist	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $insist = false,$/;"	v
+insist	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $insist = false,$/;"	v
+insist	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->insist = $insist;$/;"	v
+insist	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $insist;$/;"	v
+internal	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $internal = false,$/;"	v
+internal_ack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function internal_ack_handler($delivery_tag, $multiple, $handler)$/;"	f
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $io = new SocketIO($host, $port, $read_timeout, $keepalive, $write_timeout, $heartbeat);$/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $io = new StreamIO($/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->io = $io;$/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $io;$/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->io = $io;$/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $io;$/;"	v
+io	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function __construct($str, AbstractIO $io = null, $timeout = 0)$/;"	v
+is	vendor/composer/ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	vendor/composer/ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+is64bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $is64bits;$/;"	v
+is64bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^        $this->is64bits = PHP_INT_SIZE == 8;$/;"	v
+is64bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^    protected $is64bits;$/;"	v
+isClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+isConnected	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function isConnected()$/;"	f
+isLittleEndian	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^        $this->isLittleEndian = $tmp[1] == 1;$/;"	v
+isLittleEndian	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^    protected $isLittleEndian;$/;"	v
+isNeg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^                $isNeg = true;$/;"	v
+isNeg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $isNeg = false;$/;"	v
+isPcntlSignalEnabled	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    private function isPcntlSignalEnabled()$/;"	f
+isProtocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function isProtocol($proto)$/;"	f
+isTruncated	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function isTruncated()$/;"	f
+is_connected	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->is_connected = (bool) $is_connected;$/;"	v
+is_connected	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $is_connected = false;$/;"	v
+is_open	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->is_open = false;$/;"	v
+is_open	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->is_open = true;$/;"	v
+is_open	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $is_open = false;$/;"	v
+is_truncated	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^        $this->is_truncated = (bool) $is_truncated;$/;"	v
+is_truncated	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public $is_truncated = false;$/;"	v
+j	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                $j = 0;$/;"	v
+j	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        for ($i = $j = 0; $i < $len; $i++) {$/;"	v
+json_spec	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$json_spec = json_decode($spec, true);$/;"	v
+k	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        foreach ($options as $k => $v) {$/;"	v
+k	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^        foreach ($val as $k=>$v) {$/;"	v
+k	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        foreach ($d as $k => $va) {$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $keepalive = false,$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $keepalive = false,$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->keepalive = $keepalive;$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    private $keepalive;$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function __construct($host, $port, $read_timeout, $keepalive = false, $write_timeout = null, $heartbeat = 0)$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $keepalive = false,$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->keepalive = $keepalive;$/;"	v
+keepalive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $keepalive;$/;"	v
+key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        foreach ($this->channels as $key => $channel) {$/;"	v
+key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function key()$/;"	f
+key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        foreach ($this->prop_types as $key => $proptype) {$/;"	v
+key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        foreach ($this->prop_types as $key => $prototype) {$/;"	v
+key	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    foreach ($ret as $key => $value) {$/;"	v
+key_cache	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $key_cache = sprintf($/;"	v
+keys	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $keys = $this->get_keys_less_or_equal($this->published_messages, $delivery_tag);$/;"	v
+keys	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $keys = array_reduce($/;"	v
+known_hosts	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->known_hosts = $args->read_shortstr();$/;"	v
+known_hosts	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $known_hosts;$/;"	v
+known_hosts	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionRedirect($host, $known_hosts = '')$/;"	v
+last	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $last = $shift === 0 ? 0 : array_pop($this->bits);$/;"	v
+lastPos	vendor/composer/ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+last_error	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->last_error = compact('errno', 'errstr', 'errfile', 'errline', 'errcontext');$/;"	v
+last_error	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $last_error;$/;"	v
+last_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->last_frame = microtime(true);$/;"	v
+last_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $last_frame;$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->last_read = microtime(true);$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->last_read = null;$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $last_read;$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->last_read = microtime(true);$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->last_read = null;$/;"	v
+last_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $last_read;$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->last_write = microtime(true);$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->last_write = null;$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $last_write;$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->last_write = microtime(true);$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->last_write = null;$/;"	v
+last_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $last_write;$/;"	v
+len	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $len = mb_strlen($data, 'ASCII');$/;"	v
+len	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $len = mb_strlen($s, 'ASCII');$/;"	v
+len	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $len = mb_strlen($data, 'ASCII');$/;"	v
+len	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $len = mb_strlen($data, 'ASCII');$/;"	v
+length	vendor/composer/ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+level	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function indent($s, $level = 1, $chars = "    ")$/;"	v
+lo	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $lo = sprintf('%u', $lo);$/;"	v
+lo	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^                $lo = $n;$/;"	v
+loadClass	vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClassLoader	vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+load_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function load_properties(AMQPReader $reader)$/;"	f
+loader	vendor/composer/ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	vendor/composer/ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+loader	vendor/composer/autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	vendor/composer/autoload_real.php	/^    private static $loader;$/;"	v
+locale	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $locale = 'en_US',$/;"	v
+locale	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $locale = 'en_US',$/;"	v
+locale	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $locale = 'en_US',$/;"	v
+locale	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->locale = $locale;$/;"	v
+locale	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $locale;$/;"	v
+locales	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->locales = explode(' ', $args->read_longstr());$/;"	v
+locales	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $locales;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	vendor/composer/ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+login_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $login_method = 'AMQPLAIN',$/;"	v
+login_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $login_method = 'AMQPLAIN',$/;"	v
+login_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $login_method = 'AMQPLAIN',$/;"	v
+login_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->login_method = $login_method;$/;"	v
+login_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $login_method;$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $login_response = null,$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $login_response = null,$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->login_response = mb_substr($responseValue, 4, mb_strlen($responseValue, 'ASCII') - 4, 'ASCII');$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->login_response = new AMQPWriter();$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $this->login_response = null;$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $login_response = null,$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->login_response = $login_response;$/;"	v
+login_response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $login_response;$/;"	v
+lookup	vendor/composer/ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+mandatory	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $mandatory = isset($m[3]) ? $m[3] : false;$/;"	v
+mandatory	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $mandatory = false,$/;"	v
+map	vendor/composer/ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	vendor/composer/ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+maxBodySize	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $this->maxBodySize = $max_bytes;$/;"	v
+maxBodySize	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $maxBodySize;$/;"	v
+max_bytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $max_bytes = (int) $max_bytes;$/;"	v
+maybe_wait_for_content	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function maybe_wait_for_content($method_sig)$/;"	f
+mechanisms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->mechanisms = explode(' ', $args->read_longstr());$/;"	v
+mechanisms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $mechanisms;$/;"	v
+message	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $message = $this->get_and_unset_message($delivery_tag);$/;"	v
+message	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $message = $this->published_messages[$index];$/;"	v
+message	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $message = new AMQPMessage();$/;"	v
+message_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $message_count = $reader->read_long();$/;"	v
+methodBody	vendor/php-amqplib/php-amqplib/spec/parser.php	/^            $methodBody = '$response = array();' . "\\n";$/;"	v
+methodBody	vendor/php-amqplib/php-amqplib/spec/parser.php	/^            $methodBody = '$writer = new AMQPWriter();' . "\\n";$/;"	v
+methodMap	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->methodMap = new MethodMap080();$/;"	v
+methodMap	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->methodMap = new MethodMap091();$/;"	v
+methodMap	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $methodMap;$/;"	v
+methodSig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function methodSig($a)$/;"	f
+method_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $method_id = $reader->read_short();$/;"	v
+method_id	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $method_id = $reader->read_short();$/;"	v
+method_map	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap080.php	/^    protected $method_map = array($/;"	v
+method_map	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap091.php	/^    protected $method_map = array($/;"	v
+method_map	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$classBody .= 'protected $method_map = ' . method_map($json_spec) . ";\\n\\n";$/;"	v
+method_map	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function method_map($json_spec)$/;"	f
+method_name	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function method_name($amqp_class, $amqp_method)$/;"	f
+method_queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->method_queue = array(); \/\/ Higher level queue for methods$/;"	v
+method_queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $method_queue;$/;"	v
+method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $method_sig = $qm[0];$/;"	v
+method_sig	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $method_sig = $this->build_method_signature($payload);$/;"	v
+method_sig_array	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $method_sig_array = unpack('n2', mb_substr($payload, 0, 4, 'ASCII'));$/;"	v
+method_waits	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function method_waits($json_spec)$/;"	f
+methods	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$methods = '';$/;"	v
+missingClasses	vendor/composer/ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+mn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^            : $mn = '';$/;"	v
+mn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $mn = isset($protocolClass::$GLOBAL_METHOD_NAMES[$ms])$/;"	v
+mn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^            : $mn = '';$/;"	v
+mn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $mn = isset($protocolClass::$GLOBAL_METHOD_NAMES[$ms])$/;"	v
+ms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $ms = MiscHelper::methodSig($method_sig);$/;"	v
+ms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $ms = MiscHelper::methodSig($method_sig);$/;"	v
+msb	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $msb = self::getLongMSB($hi);$/;"	v
+msg	emit_log.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	emit_log_direct.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	emit_log_topic.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	new_task.php	/^$msg = new AMQPMessage($/;"	v
+msg	rpc_client.php	/^        $msg = new AMQPMessage($/;"	v
+msg	rpc_server.php	/^    $msg = new AMQPMessage($/;"	v
+msg	send.php	/^$msg = new AMQPMessage('Hello World!');$/;"	v
+msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $msg = $m[0];$/;"	v
+msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^            $msg = 'waiting for ' . implode(', ', $allowed_methods);$/;"	v
+msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^            $msg = 'waiting for any method';$/;"	v
+msg_property_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->msg_property_reader = new AMQPReader(null);$/;"	v
+msg_property_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $msg_property_reader;$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $multiple = (bool) $reader->read_bit();$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_ack($delivery_tag, $multiple = false)$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_nack($delivery_tag, $multiple = false, $requeue = false)$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicAck($delivery_tag = 0, $multiple = false)$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileAck($delivery_tag = 0, $multiple = false)$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicAck($delivery_tag = 0, $multiple = false)$/;"	v
+multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicNack($delivery_tag = 0, $multiple = false, $requeue = true)$/;"	v
+n	rpc_server.php	/^    $n = intval($req->body);$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^        $this->n = $n;$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    protected $n;$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $n = $this->read_signed_long();$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $n = (float) $n;$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $n = (int) $n;$/;"	v
+n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        foreach ($bits as $n => $bit) {$/;"	v
+nack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->nack_handler = $callback;$/;"	v
+nack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $nack_handler;$/;"	v
+name	vendor/composer/ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	vendor/composer/ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+name	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        foreach ($table as $name => $value) {$/;"	v
+name	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $name = $table_data->read_shortstr();$/;"	v
+namespace	vendor/composer/autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+next	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function next()$/;"	f
+next_delivery_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^                $this->next_delivery_tag = bcadd($this->next_delivery_tag, '1', 0);$/;"	v
+next_delivery_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $this->next_delivery_tag = bcadd($this->next_delivery_tag, '1', 0);$/;"	v
+next_delivery_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->next_delivery_tag = 1;$/;"	v
+next_delivery_tag	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $next_delivery_tag = 0;$/;"	v
+next_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function next_frame($timeout = 0)$/;"	f
+no_ack	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $no_ack = false,$/;"	v
+no_ack	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_get($queue = '', $no_ack = false, $ticket = null)$/;"	v
+no_local	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $no_local = false,$/;"	v
+non_blocking	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function wait($allowed_methods = null, $non_blocking = false, $timeout = 0)$/;"	v
+now	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $now = time();$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $nowait = false,$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function basic_cancel($consumer_tag, $nowait = false, $noreturn = false)$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_purge($queue = '', $nowait = false, $ticket = null)$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicCancel($consumer_tag, $nowait = false)$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileCancel($consumer_tag, $nowait = false)$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamCancel($consumer_tag, $nowait = false)$/;"	v
+nowait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicCancel($consumer_tag, $nowait = false)$/;"	v
+offset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $offset = 0;$/;"	v
+offset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->offset = 0;$/;"	v
+offset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $offset;$/;"	v
+old_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^                $old_key = key($this->publish_cache);$/;"	v
+old_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $old_key = key($this->prepare_content_cache);$/;"	v
+onResponse	rpc_client.php	/^    public function onResponse($rep)$/;"	f
+options	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $options = array()$/;"	v
+or	vendor/composer/ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+out	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $this->out = '';$/;"	v
+out	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    protected $out;$/;"	v
+out	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$out = '<?php' . "\\n\\n";$/;"	v
+ox	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $ox = $x; \/\/purely for dbg purposes (overflow exception)$/;"	v
+packBigEndian	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    private static function packBigEndian($x, $bytes)$/;"	f
+passive	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $passive = false,$/;"	v
+pathEnd	vendor/composer/ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+payload	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $payload = $this->wait_frame_reader->read($size);$/;"	v
+payload	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $payload = mb_substr($body, $position, $this->frame_max - 8, 'ASCII');$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $pkt = $this->prepare_method_frame(array($class_id, $method_id), $args);$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $pkt = new AMQPWriter();$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $pkt = $pkt ?: new AMQPWriter();$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $pkt = $this->prepare_channel_method_frame($channel, $method_sig, $args, $pkt);$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function prepare_content($channel, $class_id, $weight, $body_size, $packed_properties, $body, $pkt = null)$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function send_content($channel, $class_id, $weight, $body_size, $packed_properties, $body, $pkt = null)$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $pkt = new AMQPWriter();$/;"	v
+pkt	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $pkt = new AMQPWriter();$/;"	v
+port	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->port = $port;$/;"	v
+port	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $port;$/;"	v
+port	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->port = $port;$/;"	v
+port	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $port;$/;"	v
+pos	vendor/composer/ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+position	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $position = 0;$/;"	v
+pre_publish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private function pre_publish($exchange, $routing_key, $mandatory, $immediate, $ticket)$/;"	f
+prefetch_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	v
+prefetch_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	v
+prefetch_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamQos($prefetch_size = 0, $prefetch_count = 0, $consume_rate = 0, $global = false)$/;"	v
+prefetch_count	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicQos($prefetch_size = 0, $prefetch_count = 0, $global = false)$/;"	v
+prefix	vendor/composer/ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefixDirsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixesPsr0	vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prepare_channel_method_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function prepare_channel_method_frame($channel, $method_sig, $args = '', $pkt = null)$/;"	f
+prepare_content	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function prepare_content($channel, $class_id, $weight, $body_size, $packed_properties, $body, $pkt = null)$/;"	f
+prepare_content_cache	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->prepare_content_cache = array();$/;"	v
+prepare_content_cache	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    private $prepare_content_cache;$/;"	v
+prepare_content_cache_max_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->prepare_content_cache_max_size = 100;$/;"	v
+prepare_content_cache_max_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    private $prepare_content_cache_max_size;$/;"	v
+prepare_method_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function prepare_method_frame($method_sig, $args = '', $pkt = null)$/;"	f
+prepend	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+print_msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^    protected function print_msg($s) {$/;"	f
+process_deferred_methods	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function process_deferred_methods($allowed_methods)$/;"	f
+prop_types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $this->prop_types = !empty($propertyTypes) ? $propertyTypes : self::$propertyDefinitions;$/;"	v
+prop_types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    protected $prop_types;$/;"	v
+properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function __construct($body = '', $properties = array())$/;"	v
+properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^            $this->properties = array_intersect_key($properties, $this->prop_types);$/;"	v
+properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $this->properties = $data;$/;"	v
+properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    private $properties = array();$/;"	v
+properties	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $properties = "\/**\\n";$/;"	v
+properties	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties = get_type_phpdoc('string');$/;"	v
+propertyDefinitions	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    protected static $propertyDefinitions = array($/;"	v
+propertyDefinitions	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    protected static $propertyDefinitions = array($/;"	v
+propertyTypes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function __construct($properties, $propertyTypes = null)$/;"	v
+protocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $protocol = defined('AMQP_PROTOCOL') ? AMQP_PROTOCOL : self::PROTOCOL_091;$/;"	v
+protocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $this->protocol = 'ssl';$/;"	v
+protocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->protocol = 'tcp';$/;"	v
+protocol	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $protocol;$/;"	v
+protocolClass	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^            $protocolClass = self::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+protocolClass	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $protocolClass = self::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+protocolClass	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $protocolClass = AbstractChannel::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+protocolClass	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $protocolClass = AbstractChannel::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
+protocolClass	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^            $protocolClass = $this->PROTOCOL_CONSTANTS_CLASS;$/;"	v
+protocolVersion	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $this->protocolVersion == '0.9.1' ? $arguments : null$/;"	v
+protocolVersion	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->protocolVersion = self::getProtocolVersion();$/;"	v
+protocolVersion	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $protocolVersion;$/;"	v
+protocolWriter	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->protocolWriter = new Protocol080();$/;"	v
+protocolWriter	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->protocolWriter = new Protocol091();$/;"	v
+protocolWriter	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $protocolWriter;$/;"	v
+protocol_header	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function protocol_header($json_spec)$/;"	f
+protocol_version	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function protocol_version($json_spec)$/;"	f
+publish_batch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function publish_batch()$/;"	f
+publish_cache	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->publish_cache = array();$/;"	v
+publish_cache	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $publish_cache;$/;"	v
+publish_cache_max_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->publish_cache_max_size = 100;$/;"	v
+publish_cache_max_size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $publish_cache_max_size;$/;"	v
+published_messages	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    private $published_messages = array();$/;"	v
+push	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^    public function push($val, $type = null)$/;"	f
+qk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        foreach ($this->method_queue as $qk => $qm) {$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $queue = $reader->read_shortstr();$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $queue = '',$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicGet($ticket = 1, $queue = '', $no_ack = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueBind($ticket = 1, $queue = '', $exchange, $routing_key = '', $nowait = false, $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueDeclare($ticket = 1, $queue = '', $passive = false, $durable = false, $exclusive = false, $auto_delete = false, $nowait = false, $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueDelete($ticket = 1, $queue = '', $if_unused = false, $if_empty = false, $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queuePurge($ticket = 1, $queue = '', $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueUnbind($ticket = 1, $queue = '', $exchange, $routing_key = '', $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $exclusive = false, $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicConsume($ticket = 0, $queue = '', $consumer_tag = '', $no_local = false, $no_ack = false, $exclusive = false, $nowait = false, $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicGet($ticket = 0, $queue = '', $no_ack = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueBind($ticket = 0, $queue = '', $exchange, $routing_key = '', $nowait = false, $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueDeclare($ticket = 0, $queue = '', $passive = false, $durable = false, $exclusive = false, $auto_delete = false, $nowait = false, $arguments = array())$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueDelete($ticket = 0, $queue = '', $if_unused = false, $if_empty = false, $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queuePurge($ticket = 0, $queue = '', $nowait = false)$/;"	v
+queue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueUnbind($ticket = 0, $queue = '', $exchange, $routing_key = '', $arguments = array())$/;"	v
+queueBind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueBind($ticket = 1, $queue = '', $exchange, $routing_key = '', $nowait = false, $arguments = array())$/;"	f
+queueBind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueBind($ticket = 0, $queue = '', $exchange, $routing_key = '', $nowait = false, $arguments = array())$/;"	f
+queueBindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function queueBindOk(AMQPReader $reader)$/;"	f
+queueBindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function queueBindOk(AMQPReader $reader)$/;"	f
+queueDeclare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueDeclare($ticket = 1, $queue = '', $passive = false, $durable = false, $exclusive = false, $auto_delete = false, $nowait = false, $arguments = array())$/;"	f
+queueDeclare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueDeclare($ticket = 0, $queue = '', $passive = false, $durable = false, $exclusive = false, $auto_delete = false, $nowait = false, $arguments = array())$/;"	f
+queueDeclareOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function queueDeclareOk(AMQPReader $reader)$/;"	f
+queueDeclareOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function queueDeclareOk(AMQPReader $reader)$/;"	f
+queueDelete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueDelete($ticket = 1, $queue = '', $if_unused = false, $if_empty = false, $nowait = false)$/;"	f
+queueDelete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueDelete($ticket = 0, $queue = '', $if_unused = false, $if_empty = false, $nowait = false)$/;"	f
+queueDeleteOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function queueDeleteOk(AMQPReader $reader)$/;"	f
+queueDeleteOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function queueDeleteOk(AMQPReader $reader)$/;"	f
+queuePurge	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queuePurge($ticket = 1, $queue = '', $nowait = false)$/;"	f
+queuePurge	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queuePurge($ticket = 0, $queue = '', $nowait = false)$/;"	f
+queuePurgeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function queuePurgeOk(AMQPReader $reader)$/;"	f
+queuePurgeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function queuePurgeOk(AMQPReader $reader)$/;"	f
+queueUnbind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function queueUnbind($ticket = 1, $queue = '', $exchange, $routing_key = '', $arguments = array())$/;"	f
+queueUnbind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function queueUnbind($ticket = 0, $queue = '', $exchange, $routing_key = '', $arguments = array())$/;"	f
+queueUnbindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function queueUnbindOk(AMQPReader $reader)$/;"	f
+queueUnbindOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function queueUnbindOk(AMQPReader $reader)$/;"	f
+queue_bind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_bind($/;"	f
+queue_bind_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function queue_bind_ok($reader)$/;"	f
+queue_declare	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_declare($/;"	f
+queue_declare_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function queue_declare_ok($reader)$/;"	f
+queue_delete	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_delete($queue = '', $if_unused = false, $if_empty = false, $nowait = false, $ticket = null)$/;"	f
+queue_delete_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function queue_delete_ok($reader)$/;"	f
+queue_purge	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_purge($queue = '', $nowait = false, $ticket = null)$/;"	f
+queue_purge_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function queue_purge_ok($reader)$/;"	f
+queue_unbind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function queue_unbind($/;"	f
+queue_unbind_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function queue_unbind_ok($reader)$/;"	f
+queued_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $queued_method = $qm;$/;"	v
+queued_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $queued_method = array();$/;"	v
+queuename	config.php	/^$queuename = 'kd_sms_send_q'; \/\/队列名称$/;"	v
+raw_bytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $raw_bytes = new AMQPWriter();$/;"	v
+rawread	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected function rawread($n)$/;"	f
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $read = false$/;"	v
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read($n)$/;"	f
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function read($n);$/;"	f
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $read = 0;$/;"	v
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $read = array($this->sock);$/;"	v
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function read($n)$/;"	f
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $read = 0;$/;"	v
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $read = array($this->sock);$/;"	v
+read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function read($len)$/;"	f
+read_array	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_array($returnObject = false)$/;"	f
+read_array_object	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_array_object()$/;"	f
+read_bit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_bit()$/;"	f
+read_long	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_long()$/;"	f
+read_longlong	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_longlong()$/;"	f
+read_longstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_longstr()$/;"	f
+read_octet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_octet()$/;"	f
+read_php_int	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_php_int()$/;"	f
+read_short	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_short()$/;"	f
+read_shortstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_shortstr()$/;"	f
+read_signed_long	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    private function read_signed_long()$/;"	f
+read_signed_longlong	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_signed_longlong()$/;"	f
+read_signed_octet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_signed_octet()$/;"	f
+read_signed_short	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_signed_short()$/;"	f
+read_table	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_table($returnObject = false)$/;"	f
+read_table_object	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_table_object()$/;"	f
+read_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $read_timeout = 3,$/;"	v
+read_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->read_timeout = $read_timeout;$/;"	v
+read_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $read_timeout;$/;"	v
+read_timestamp	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_timestamp()$/;"	f
+read_value	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function read_value($fieldType, $collectionsAsObjects = false)$/;"	f
+read_write_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $read_write_timeout = 3.0,$/;"	v
+read_write_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->read_write_timeout = $read_write_timeout;$/;"	v
+read_write_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $read_write_timeout;$/;"	v
+reconnect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function reconnect()$/;"	f
+reconnect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function reconnect();$/;"	f
+reconnect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function reconnect()$/;"	f
+reconnect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function reconnect()$/;"	f
+redelivered	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $redelivered = $reader->read_bit();$/;"	v
+redelivered	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key)$/;"	v
+redelivered	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key, $identifier)$/;"	v
+redelivered	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicDeliver($consumer_tag, $delivery_tag, $redelivered = false, $exchange, $routing_key)$/;"	v
+reenableHeartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function reenableHeartbeat()$/;"	f
+register	vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+remote	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $remote = sprintf($/;"	v
+reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $reply_code = $reader->read_short();$/;"	v
+reply_code	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $reply_code = $reader->read_short();$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $reply_text = $reader->read_shortstr();$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function close($reply_code = 0, $reply_text = '', $method_sig = array(0, 0))$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $reply_text = $reader->read_shortstr();$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function close($reply_code = 0, $reply_text = '', $method_sig = array(0, 0))$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicReturn($reply_code, $reply_text = '', $exchange, $routing_key)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelAlert($reply_code, $reply_text = '', $details = array())$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileReturn($reply_code = 200, $reply_text = '', $exchange, $routing_key)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamReturn($reply_code = 200, $reply_text = '', $exchange, $routing_key)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicReturn($reply_code, $reply_text = '', $exchange, $routing_key)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	v
+reply_text	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	v
+requeue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function basicReject($delivery_tag, $requeue = true)$/;"	v
+requeue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileReject($delivery_tag, $requeue = true)$/;"	v
+requeue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicReject($delivery_tag, $requeue = true)$/;"	v
+res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $res = $this->io->read($n);$/;"	v
+res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $res = mb_substr($this->str, 0, $n, 'ASCII');$/;"	v
+res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $res = array();$/;"	v
+res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $res = '';$/;"	v
+response	rpc_client.php	/^            $this->response = $rep->body;$/;"	v
+response	rpc_client.php	/^        $this->response = null;$/;"	v
+response	rpc_client.php	/^    private $response;$/;"	v
+response	rpc_client.php	/^$response = $fibonacci_rpc->call(30);$/;"	v
+response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^        $response = array();$/;"	v
+response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^        $response = array();$/;"	v
+responseValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $responseValue = $this->login_response->getvalue();$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $result = $returnObject ? new AMQPArray() : array();$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $result = $returnObject ? new AMQPTable() : array();$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $result = $this->io->select($sec, $usec);$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $result = ($this->bits & 1) == 1;$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $result = new AMQPWriter();$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $result = stream_select($read, $write, $except, $sec, $usec);$/;"	v
+result	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $result = false;$/;"	v
+ret	vendor/php-amqplib/php-amqplib/spec/parser.php	/^            $ret = $this->write_bits();$/;"	v
+ret	vendor/php-amqplib/php-amqplib/spec/parser.php	/^            $ret = '';$/;"	v
+ret	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $ret = '$writer->write_bits(array(' . implode(', ', $this->bit_args) . "));\\n";$/;"	v
+ret	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $ret = array();$/;"	v
+return	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function checkDataTypeIsSupported($type, $return = true)$/;"	v
+reuse	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function reuse($str)$/;"	f
+rewind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function rewind()$/;"	f
+routing_key	emit_log_topic.php	/^$routing_key = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'anonymous.info';$/;"	v
+routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $routing_key = isset($m[2]) ? $m[2] : '';$/;"	v
+routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $routing_key = $reader->read_shortstr();$/;"	v
+routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $routing_key = '',$/;"	v
+routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeBind($ticket = 0, $destination, $source, $routing_key = '', $nowait = false, $arguments = array())$/;"	v
+routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeUnbind($ticket = 0, $destination, $source, $routing_key = '', $nowait = false, $arguments = array())$/;"	v
+routingkey	config.php	/^$routingkey = 'sms_send'; \/\/路由关键字(也可以省略))$/;"	v
+s	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $s = preg_replace('#(?:^|[\\r\\n]+)(?=[^\\r\\n])#', '$0' . str_repeat($chars, $level), $s);$/;"	v
+safeClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function safeClose()$/;"	f
+saveBytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function saveBytes($bytes)$/;"	f
+search	vendor/composer/ClassLoader.php	/^                $search = $subPath.'\\\\';$/;"	v
+select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function select($sec, $usec = 0)$/;"	f
+select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function select($sec, $usec);$/;"	f
+select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function select($sec, $usec)$/;"	f
+select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function select($sec, $usec)$/;"	f
+send_channel_method_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function send_channel_method_frame($channel, $method_sig, $args = '', $pkt = null)$/;"	f
+send_content	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function send_content($channel, $class_id, $weight, $body_size, $packed_properties, $body, $pkt = null)$/;"	f
+send_method_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function send_method_frame($method_sig, $args = '')$/;"	f
+send_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->send_timeout = $write_timeout ?: $read_timeout;$/;"	v
+send_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected $send_timeout;$/;"	v
+sent	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $sent = socket_write($this->sock, $data, $len);$/;"	v
+serialize_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function serialize_properties()$/;"	f
+serialized_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $this->serialized_properties = $result->getvalue();$/;"	v
+serialized_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    private $serialized_properties;$/;"	v
+server_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->server_properties = $args->read_table();$/;"	v
+server_properties	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $server_properties;$/;"	v
+set	vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+set	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPTable.php	/^    public function set($key, $val, $type = null)$/;"	f
+set	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^    public function set($name, $value)$/;"	f
+setApcuPrefix	vendor/composer/ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setBody	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function setBody($body)$/;"	f
+setBodySize	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function setBodySize($body_size)$/;"	f
+setBodySizeLimit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function setBodySizeLimit($max_bytes)$/;"	f
+setClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setIsConnected	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function setIsConnected($is_connected)$/;"	f
+setIsTruncated	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php	/^    public function setIsTruncated($is_truncated)$/;"	f
+setPsr4	vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setTimeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function setTimeout($timeout)$/;"	f
+setUseIncludePath	vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+setValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final protected function setValue($val, $type = null, $key = null)$/;"	f
+set_ack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function set_ack_handler($callback)$/;"	f
+set_close_on_destruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function set_close_on_destruct($close = true)$/;"	f
+set_connection_block_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function set_connection_block_handler($callback)$/;"	f
+set_connection_unblock_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function set_connection_unblock_handler($callback)$/;"	f
+set_nack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function set_nack_handler($callback)$/;"	f
+set_return_listener	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function set_return_listener($callback)$/;"	f
+severities	receive_logs_direct.php	/^$severities = array_slice($argv, 1);$/;"	v
+severity	emit_log_direct.php	/^$severity = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'info';$/;"	v
+shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $shift = $this->bitcount % 8;$/;"	v
+shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^                $shift = 15;$/;"	v
+shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $shift = 0;$/;"	v
+shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $shift = 15;$/;"	v
+should_dispatch_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function should_dispatch_method($allowed_methods, $method_sig)$/;"	f
+size	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $size = $this->wait_frame_reader->read_long();$/;"	v
+slen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $slen = $this->read_php_int();$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $sock;$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->sock = null;$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $this->sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    private $sock;$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $this->sock = stream_socket_client($/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->sock = null;$/;"	v
+sock	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    private $sock;$/;"	v
+socket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $socket = socket_import_stream($this->sock);$/;"	v
+socket_import_stream	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            throw new AMQPIOException('Can not enable keepalive: function socket_import_stream does not exist');$/;"	f
+spec	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$spec = file_get_contents(__DIR__ . "\/" . $argv[1]);$/;"	v
+special_map	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $special_map = array($/;"	v
+splitIntoQuads	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    private function splitIntoQuads($n)$/;"	f
+splitSecondsMicroseconds	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function splitSecondsMicroseconds($number)$/;"	f
+ssl_context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $ssl_context = empty($ssl_options) ? null : $this->create_ssl_context($ssl_options);$/;"	v
+ssl_context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $ssl_context = stream_context_create();$/;"	v
+ssl_options	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $ssl_options = array(),$/;"	v
+str	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->str = $str;$/;"	v
+str	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->str = is_string($str) ? $str : '';$/;"	v
+str	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->str = mb_substr($this->str, $n, mb_strlen($this->str, 'ASCII') - $n, 'ASCII');$/;"	v
+str	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $str;$/;"	v
+str_length	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->str_length = mb_strlen($this->str, 'ASCII');$/;"	v
+str_length	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $str_length;$/;"	v
+streamCancel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamCancel($consumer_tag, $nowait = false)$/;"	f
+streamCancelOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function streamCancelOk(AMQPReader $reader)$/;"	f
+streamConsume	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamConsume($ticket = 1, $queue = '', $consumer_tag = '', $no_local = false, $exclusive = false, $nowait = false)$/;"	f
+streamConsumeOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function streamConsumeOk(AMQPReader $reader)$/;"	f
+streamDeliver	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamDeliver($consumer_tag, $delivery_tag, $exchange, $queue)$/;"	f
+streamPublish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamPublish($ticket = 1, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false)$/;"	f
+streamQos	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamQos($prefetch_size = 0, $prefetch_count = 0, $consume_rate = 0, $global = false)$/;"	f
+streamQosOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function streamQosOk(AMQPReader $reader)$/;"	f
+streamReturn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function streamReturn($reply_code = 200, $reply_text = '', $exchange, $routing_key)$/;"	f
+subPath	vendor/composer/ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	vendor/composer/ClassLoader.php	/^            $subPath = $class;$/;"	v
+supported	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $supported = self::getSupportedDataTypes();$/;"	v
+symbols	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^        $symbols = array_flip(self::getSupportedDataTypes());$/;"	v
+t	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $t = microtime(true);$/;"	v
+t	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $t = microtime(true);$/;"	v
+t_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $t_read = round($t - $this->last_read);$/;"	v
+t_read	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $t_read = round($t - $this->last_read);$/;"	v
+t_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^            $t_write = round($t - $this->last_write);$/;"	v
+t_write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $t_write = round($t - $this->last_write);$/;"	v
+table_data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $table_data = new AMQPReader($this->rawread($tlen), null);$/;"	v
+table_data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $table_data = $table_data->getvalue();$/;"	v
+table_data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $table_data = new AMQPWriter();$/;"	v
+tell	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected function tell()$/;"	f
+testContent	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function testContent()$/;"	f
+testContentOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function testContentOk(AMQPReader $reader)$/;"	f
+testInteger	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function testInteger($integer_1, $integer_2, $integer_3, $integer_4, $operation)$/;"	f
+testIntegerOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function testIntegerOk(AMQPReader $reader)$/;"	f
+testString	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function testString($string_1, $string_2, $operation)$/;"	f
+testStringOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function testStringOk(AMQPReader $reader)$/;"	f
+testTable	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function testTable($table, $integer_op, $string_op)$/;"	f
+testTableOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function testTableOk(AMQPReader $reader)$/;"	f
+ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $ticket = $this->getTicket($ticket);$/;"	v
+ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $ticket = isset($m[5]) ? $m[5] : null;$/;"	v
+ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $ticket = $this->getTicket($ticket);$/;"	v
+ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $ticket = null$/;"	v
+ticket	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $ticket = null,$/;"	v
+timed_out	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected function timed_out()$/;"	f
+timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function wait_channel($channel_id, $timeout = 0)$/;"	v
+timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $this->timeout = $timeout;$/;"	v
+timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $timeout;$/;"	v
+tlen	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $tlen = $this->read_php_int();$/;"	v
+tmp	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^        $tmp = unpack('S', "\\x01\\x00"); \/\/ to maintain 5.3 compatibility$/;"	v
+to_camel_case	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function to_camel_case($amqp_method)$/;"	f
+to_snake_case	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function to_snake_case($arg)$/;"	f
+tokens	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $tokens = array();$/;"	v
+translateType	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function translateType($argument)$/;"	f
+tunnelRequest	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function tunnelRequest($meta_data)$/;"	f
+txCommit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function txCommit()$/;"	f
+txCommit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function txCommit()$/;"	f
+txCommitOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function txCommitOk(AMQPReader $reader)$/;"	f
+txCommitOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function txCommitOk(AMQPReader $reader)$/;"	f
+txRollback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function txRollback()$/;"	f
+txRollback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function txRollback()$/;"	f
+txRollbackOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function txRollbackOk(AMQPReader $reader)$/;"	f
+txRollbackOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function txRollbackOk(AMQPReader $reader)$/;"	f
+txSelect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function txSelect()$/;"	f
+txSelect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function txSelect()$/;"	f
+txSelectOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public static function txSelectOk(AMQPReader $reader)$/;"	f
+txSelectOk	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public static function txSelectOk(AMQPReader $reader)$/;"	f
+tx_commit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function tx_commit()$/;"	f
+tx_commit_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function tx_commit_ok($reader)$/;"	f
+tx_rollback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function tx_rollback()$/;"	f
+tx_rollback_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function tx_rollback_ok($reader)$/;"	f
+tx_select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function tx_select()$/;"	f
+tx_select_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function tx_select_ok($reader)$/;"	f
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function exchangeDeclare($ticket = 1, $exchange, $type = 'direct', $passive = false, $durable = false, $auto_delete = false, $internal = false, $nowait = false, $arguments = array())$/;"	v
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function exchangeDeclare($ticket = 0, $exchange, $type = 'direct', $passive = false, $durable = false, $auto_delete = false, $internal = false, $nowait = false, $arguments = array())$/;"	v
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $type = $val->getType();$/;"	v
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final protected function setValue($val, $type = null, $key = null)$/;"	v
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php	/^    public function push($val, $type = null)$/;"	v
+type	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPTable.php	/^    public function set($key, $val, $type = null)$/;"	v
+type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $type = $argument['type'];$/;"	v
+type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $type = gettype($argument['default-value']);$/;"	v
+type	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $type = null;$/;"	v
+typeIsSym	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $typeIsSym = !($d instanceof AMQPTable); \/\/purely for back-compat purposes$/;"	v
+types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                $types = self::$_types_080;$/;"	v
+types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                $types = self::$_types_091;$/;"	v
+types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                $types = self::$_types_rabbit;$/;"	v
+types	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^        $types = self::getSupportedDataTypes();$/;"	v
+under	vendor/composer/ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+unregister	vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	f
+useIncludePath	vendor/composer/ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useStaticLoader	vendor/composer/autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+usec	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function select($sec, $usec = 0)$/;"	v
+usec	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^            $usec = is_int($usec) ? $usec : 0;$/;"	v
+v	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $v = $args->read_long();$/;"	v
+v	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $v = $args->read_short();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                    $val = $value[1]->n . 'E' . $value[1]->e;$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                    $val = $value[1];$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                    $val = '(' . self::dump_table($value[1]) . ')';$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^                    $val = date('Y-m-d H:i:s', $value[1]);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                    $val = (bool) $val;$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                    $val = \\DateTime::createFromFormat('U', $val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                    $val = null;$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                $val = array(self::T_ARRAY, new AMQPArray($val));$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^                $val = array(self::T_TABLE, new AMQPTable($val));$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeBool($val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeFloat($val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeInt($val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeString($val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeValue($val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $this->encodeVoid();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = $val->getNativeData();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = array($type, $val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = array($val->getType(), $val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = array(self::T_DECIMAL, $val);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $val = array(self::T_TIMESTAMP, $val->getTimestamp());$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^        $val = (bool) $val;$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_array($collectionsAsObjects);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_long();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_longlong();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_longstr();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_octet();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_short();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_shortstr();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_signed_long();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_signed_longlong();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_signed_octet();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_signed_short();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_table($collectionsAsObjects);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = $this->read_timestamp();$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = new AMQPDecimal($n, $e);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $val = null;$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $val = $table_data->read_value($ftype, $returnObject);$/;"	v
+val	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^            $val = isset($this->properties[$key]) ? $this->properties[$key] : null;$/;"	v
+valid	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function valid()$/;"	f
+valid_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap080.php	/^    public function valid_method($method_sig)$/;"	f
+valid_method	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap091.php	/^    public function valid_method($method_sig)$/;"	f
+valid_method	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$classBody .= 'public function valid_method($method_sig)' . "\\n{\\n";$/;"	f
+validate_body_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function validate_body_frame($frame_type)$/;"	f
+validate_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function validate_frame($frameType, $expectedType, $expectedMessage)$/;"	f
+validate_frame_payload	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function validate_frame_payload($payload)$/;"	f
+validate_header_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function validate_header_frame($frame_type)$/;"	f
+validate_method_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function validate_method_frame($frame_type)$/;"	f
+value	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $value = 0;$/;"	v
+variableName	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function get_type_phpdoc($type, $variableName = null, $returnType = null)$/;"	v
+vendorDir	vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+version_major	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->version_major = $args->read_octet();$/;"	v
+version_major	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $version_major;$/;"	v
+version_minor	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->version_minor = $args->read_octet();$/;"	v
+version_minor	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $version_minor;$/;"	v
+version_minor	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionStart($version_major = 0, $version_minor = 8, $server_properties, $mechanisms = 'PLAIN', $locales = 'en_US')$/;"	v
+version_minor	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionStart($version_major = 0, $version_minor = 9, $server_properties, $mechanisms = 'PLAIN', $locales = 'en_US')$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $vhost = '\/',$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $vhost = '\/',$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php	/^        $vhost = '\/',$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->vhost = $vhost;$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $vhost = '\/',$/;"	v
+vhost	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $vhost;$/;"	v
+w	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $w = new AMQPWriter();$/;"	v
+wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function wait($allowed_methods = null, $non_blocking = false, $timeout = 0)$/;"	f
+wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $wait = array($/;"	v
+wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait080.php	/^    protected $wait = array($/;"	v
+wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait091.php	/^    protected $wait = array($/;"	v
+wait	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected function wait()$/;"	f
+waitHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->waitHelper = new Wait080();$/;"	v
+waitHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $this->waitHelper = new Wait091();$/;"	v
+waitHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $waitHelper;$/;"	v
+wait_channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function wait_channel($channel_id, $timeout = 0)$/;"	f
+wait_content	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function wait_content()$/;"	f
+wait_content_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->wait_content_reader = new AMQPReader(null);$/;"	v
+wait_content_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $wait_content_reader;$/;"	v
+wait_for_pending_acks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function wait_for_pending_acks($timeout = 0)$/;"	f
+wait_for_pending_acks_returns	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function wait_for_pending_acks_returns($timeout = 0)$/;"	f
+wait_frame	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function wait_frame($timeout = 0)$/;"	f
+wait_frame_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->wait_frame_reader = new AMQPReader(null);$/;"	v
+wait_frame_reader	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $wait_frame_reader;$/;"	v
+wait_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $this->wait_tune_ok = true;$/;"	v
+wait_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $this->wait_tune_ok = false;$/;"	v
+wait_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $wait_tune_ok;$/;"	v
+weight	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $weight = $this->wait_content_reader->read_short();$/;"	v
+words	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $words = explode('-', $amqp_method);$/;"	v
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $write = false,$/;"	v
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function write($data)$/;"	f
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write($s)$/;"	f
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function write($data);$/;"	f
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $write = null;$/;"	v
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function write($data)$/;"	f
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $write = null;$/;"	v
+write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    public function write($data)$/;"	f
+write_array	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_array($a)$/;"	f
+write_bit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_bit($b)$/;"	f
+write_bits	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_bits($bits)$/;"	f
+write_bits	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    public function write_bits()$/;"	f
+write_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    protected function write_heartbeat()$/;"	f
+write_heartbeat	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected function write_heartbeat()$/;"	f
+write_long	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_long($n)$/;"	f
+write_longlong	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_longlong($n)$/;"	f
+write_longstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_longstr($s)$/;"	f
+write_octet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_octet($n)$/;"	f
+write_short	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_short($n)$/;"	f
+write_shortstr	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_shortstr($s)$/;"	f
+write_signed_long	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    private function write_signed_long($n)$/;"	f
+write_signed_longlong	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_signed_longlong($n)$/;"	f
+write_signed_octet	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_signed_octet($n)$/;"	f
+write_signed_short	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_signed_short($n)$/;"	f
+write_table	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_table($d)$/;"	f
+write_table_object	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_table_object($d)$/;"	f
+write_timeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php	/^        $write_timeout = 3,$/;"	v
+write_timestamp	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write_timestamp($v)$/;"	f
+write_value	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    private function write_value($type, $val)$/;"	f
+writer	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^        $writer = new AMQPWriter();$/;"	v
+writer	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^        $writer = new AMQPWriter();$/;"	v
+written	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $written = 0;$/;"	v
+x	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^                $x = abs($x);$/;"	v
+x	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $x = bcadd($x, -1, 0);$/;"	v
+x	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $x = bcdiv($x, 65536, 0);$/;"	v
+x	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $x = preg_replace('\/^-\/', '', $x, 1, $isNeg);$/;"	v
+x_close_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_close_ok()$/;"	f
+x_flow_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function x_flow_ok($active)$/;"	f
+x_open	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected function x_open($out_of_band = '')$/;"	f
+x_open	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_open($virtual_host, $capabilities = '', $insist = false)$/;"	f
+x_secure_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_secure_ok($response)$/;"	f
+x_start_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_start_ok($clientProperties, $mechanism, $response, $locale)$/;"	f
+x_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function x_tune_ok($channel_max, $frame_max, $heartbeat)$/;"	f

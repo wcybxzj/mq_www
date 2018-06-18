@@ -1,0 +1,46 @@
+牧码人 老王
+
+消息中间件 rabbitmq 
+
+1.课程大纲
+
+	1.消息队列解决了什么问题?
+		异步处理，
+		应用解耦，
+		流量削锋
+		日志处理......
+
+ 	2.rabbitmq安装与配置
+
+	3.JAVA操作rabbitmq 
+		1.simple		简单队列
+		2.work queues		工作队列     公平分发  轮询分发 
+		3.publish/subscribe	发布订阅
+		4.routing		路由选择    通配符模式		
+		5.Topics 		主题
+		6.手动和自动确认消息
+		7.队列的持久化和非持久化
+		8.rabbitmq的延迟队列
+	4.Spring AMQP  Spring-Rabbit
+	6.场景demo  MQ实现搜索引擎DIH增量 
+	7.场景demo  未支付订单30分钟 取消
+	8.大数据应用 类似百度统计 cnzz 架构   消息队列
+	
+
+1.rabbitmq使用场景
+2.Rabbitmq安装
+3.用户vhost配置
+4.java操作简单队列
+5.工作队列work queues 轮询分发(Round-robin)
+6.工作队列work queues 公平分发(fair dispatch)
+7.消息应答ack与消息持久化durable
+8.publish/subscribe发布订阅模式
+9.routing路由模式
+10.topic主题模式
+11.Rabbitmq之消息确认机制(AMQP事务机制)
+12.Rabbitmq之消息确认机制(Confirm机制串行)
+13.Rabbitmq之消息确认机制(Confirm机制异步)
+14.spring集成rabbitmq-client
+15.大数据日志收集系统消息中间件应用
+16.搜索系统DIH消息中间件应用
+

@@ -1,0 +1,12 @@
+服务开启在5672
+rabbitmq-server start
+
+rabbit web:
+127.0.0.1:15672
+
+查看交换机:
+rabbitmqctl list_exchanges
+
+查看绑定关系:
+rabbitmqctl list_bindings
+

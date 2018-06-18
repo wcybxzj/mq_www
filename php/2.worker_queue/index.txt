@@ -1,0 +1,75 @@
+测试1:消费者是RoundRobin模式,可以看到是均分任务
+
+终端1:消费者
+[root@web11 2.worker_queue]# php worker.php 1 RR
+每次执行任务前睡眠:1秒
+工作模式:RR
+[*] Waiting for messages. To exit press CTRL+C
+[x] Received 1
+[x] Done
+[x] Received 3
+[x] Done
+[x] Received 5
+[x] Done
+[x] Received 7
+[x] Done
+[x] Received 9
+[x] Done
+
+
+终端2:消费者
+[root@web11 2.worker_queue]# php worker.php 5 RR
+每次执行任务前睡眠:5秒
+工作模式:RR
+[*] Waiting for messages. To exit press CTRL+C
+[x] Received 2
+[x] Done
+[x] Received 4
+[x] Done
+[x] Received 6
+[x] Done
+[x] Received 8
+[x] Done
+[x] Received 10
+[x] Done
+
+终端3:生产者
+[root@web11 2.worker_queue]# ./send.sh
+
+==================================================================
+测试1:消费者是Fair模式+消费者手动ACK,可以看到能者多劳
+
+终端1:消费者
+[root@web11 2.worker_queue]# php worker.php 5 Fair
+每次执行任务前睡眠:5秒
+工作模式:Fair
+[*] Waiting for messages. To exit press CTRL+C
+[x] Received 1
+[x] Done
+[x] Received 7
+[x] Done
+
+终端2:消费者
+[root@web11 2.worker_queue]# php worker.php 1 Fair
+每次执行任务前睡眠:1秒
+工作模式:Fair
+[*] Waiting for messages. To exit press CTRL+C
+[x] Received 2
+[x] Done
+[x] Received 3
+[x] Done
+[x] Received 4
+[x] Done
+[x] Received 5
+[x] Done
+[x] Received 6
+[x] Done
+[x] Received 8
+[x] Done
+[x] Received 9
+[x] Done
+[x] Received 10
+[x] Done
+
+终端3:生产者
+[root@web11 2.worker_queue]# ./send.sh
