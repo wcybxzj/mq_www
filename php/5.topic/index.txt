@@ -1,0 +1,18 @@
+终端1:
+php receive_logs_topic.php "#"
+[x] kern.critical:A critical kernel error
+
+终端2:
+php receive_logs_topic.php "kern.*"
+[x] kern.critical:A critical kernel error
+
+终端3:
+php receive_logs_topic.php "*.critical"
+[x] kern.critical:A critical kernel error
+
+终端4:
+php receive_logs_topic.php "kern.*" "*.critical"
+[x] kern.critical:A critical kernel error
+
+终端5:
+php emit_log_topic.php "kern.critical" "A critical kernel error"

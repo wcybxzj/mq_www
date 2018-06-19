@@ -1,8 +1,10 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
+
+require_once '../config.php';
 
 class FibonacciRpcClient
 {
@@ -12,14 +14,10 @@ class FibonacciRpcClient
     private $response;
     private $corr_id;
 
-    public function __construct()
+    public function __construct($conf)
     {
-        $this->connection = new AMQPStreamConnection(
-            'localhost',
-            5672,
-            'guest',
-            'guest'
-        );
+		$this->connection = new AMQPStreamConnection($conf['host'],$conf['port'],
+			$conf['user'], $conf['pwd'], $conf['vhost']);
         $this->channel = $this->connection->channel();
         list($this->callback_queue, ,) = $this->channel->queue_declare(
             "",
@@ -28,6 +26,7 @@ class FibonacciRpcClient
             true,
             false
         );
+
         $this->channel->basic_consume(
             $this->callback_queue,
             '',
@@ -40,6 +39,7 @@ class FibonacciRpcClient
                 'onResponse'
             )
         );
+
     }
 
     public function onResponse($rep)
@@ -61,6 +61,7 @@ class FibonacciRpcClient
                 'reply_to' => $this->callback_queue
             )
         );
+
         $this->channel->basic_publish($msg, '', 'rpc_queue');
         while (!$this->response) {
             $this->channel->wait();
@@ -69,6 +70,7 @@ class FibonacciRpcClient
     }
 }
 
-$fibonacci_rpc = new FibonacciRpcClient();
-$response = $fibonacci_rpc->call(30);
+$fibonacci_rpc = new FibonacciRpcClient($conf);
+$num =isset($argv[1])?$argv[1]:0;
+$response = $fibonacci_rpc->call($num);
 echo ' [.] Got ', $response, "\n";

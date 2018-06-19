@@ -57,7 +57,7 @@ DebugHelper	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^c
 FRAME_TYPES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $FRAME_TYPES = array($/;"	v
 FRAME_TYPES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $FRAME_TYPES = array($/;"	v
 FRAME_TYPES	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $FRAME_TYPES = ' . frame_types($json_spec) . ";\\n\\n";$/;"	v
-FibonacciRpcClient	rpc_client.php	/^class FibonacciRpcClient$/;"	c
+FibonacciRpcClient	6.rpc/rpc_client.php	/^class FibonacciRpcClient$/;"	c
 GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php	/^    public static $GLOBAL_METHOD_NAMES = array($/;"	v
 GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php	/^    public static $GLOBAL_METHOD_NAMES = array($/;"	v
 GLOBAL_METHOD_NAMES	vendor/php-amqplib/php-amqplib/spec/parser.php	/^$properties .= 'public static $GLOBAL_METHOD_NAMES = ' . global_method_names($json_spec) . ";\\n";$/;"	v
@@ -78,7 +78,7 @@ StreamIO	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^class 
 Wait080	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait080.php	/^class Wait080$/;"	c
 Wait091	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait091.php	/^class Wait091$/;"	c
 __clone	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function __clone()$/;"	f
-__construct	rpc_client.php	/^    public function __construct()$/;"	f
+__construct	6.rpc/rpc_client.php	/^    public function __construct()$/;"	f
 __construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function __construct($connection, $channel_id = null, $auto_decode = true)$/;"	f
 __construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    public function __construct(AbstractConnection $connection, $channel_id)$/;"	f
 __construct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^    public function __construct($/;"	f
@@ -238,7 +238,7 @@ basic_return_callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChan
 batch_basic_publish	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function batch_basic_publish($/;"	f
 batch_messages	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->batch_messages = array();$/;"	v
 batch_messages	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    protected $batch_messages = array();$/;"	v
-binding_keys	receive_logs_topic.php	/^$binding_keys = array_slice($argv, 1);$/;"	v
+binding_keys	5.topic/receive_logs_topic.php	/^$binding_keys = array_slice($argv, 1);$/;"	v
 bit	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^            $bit = $bit ? 1 : 0;$/;"	v
 bit_args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $this->bit_args = array();$/;"	v
 bit_args	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    protected $bit_args = array();$/;"	v
@@ -268,18 +268,20 @@ buffer	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        
 build_method_signature	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function build_method_signature($payload)$/;"	f
 c	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^                $c = self::$PROTOCOL_CONSTANTS_CLASS;$/;"	v
 cache_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $cache_key = sprintf($/;"	v
-call	rpc_client.php	/^    public function call($n)$/;"	f
+call	6.rpc/rpc_client.php	/^    public function call($n)$/;"	f
 call_read_argument	vendor/php-amqplib/php-amqplib/spec/parser.php	/^function call_read_argument($domains, $arg)$/;"	f
 call_write_argument	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    public function call_write_argument($domains, $arg)$/;"	f
-callback	receive.php	/^$callback = function ($msg) {$/;"	v
-callback	receive_logs.php	/^$callback = function ($msg) {$/;"	v
-callback	receive_logs_direct.php	/^$callback = function ($msg) {$/;"	v
-callback	receive_logs_topic.php	/^$callback = function ($msg) {$/;"	v
-callback	rpc_server.php	/^$callback = function ($req) {$/;"	v
+callback	1.simple_queue/receive.php	/^$callback = function ($msg) {$/;"	v
+callback	2.worker_queue/worker.php	/^$callback = function ($msg)  use($sec) {$/;"	v
+callback	3_1.pubsub/receive_logs.php	/^$callback = function ($msg) {$/;"	v
+callback	3_2.notify_system/email_worker.php	/^$callback = function ($msg) use ($sec) {$/;"	v
+callback	3_2.notify_system/sms_worker.php	/^$callback = function ($msg) use ($sec) {$/;"	v
+callback	4.routing/receive_logs_direct.php	/^$callback = function ($msg) {$/;"	v
+callback	5.topic/receive_logs_topic.php	/^$callback = function ($msg) {$/;"	v
+callback	6.rpc/rpc_server.php	/^$callback = function ($req) {$/;"	v
 callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $callback = $this->basic_return_callback;$/;"	v
 callback	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $callback = null,$/;"	v
-callback	worker.php	/^$callback = function ($msg) {$/;"	v
-callback_queue	rpc_client.php	/^    private $callback_queue;$/;"	v
+callback_queue	6.rpc/rpc_client.php	/^    private $callback_queue;$/;"	v
 callbacks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $this->callbacks = array();$/;"	v
 callbacks	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public $callbacks = array();$/;"	v
 can	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^ * This class can read from a string or from a stream$/;"	c
@@ -291,23 +293,26 @@ capabilities	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol0
 ch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $ch = $this->wait_frame_reader->read_octet();$/;"	v
 ch	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $ch = new AMQPChannel($this->connection, $channel_id);$/;"	v
 challenge	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $challenge = $args->read_longstr();$/;"	v
-channel	emit_log.php	/^$channel = $connection->channel();$/;"	v
-channel	emit_log_direct.php	/^$channel = $connection->channel();$/;"	v
-channel	emit_log_topic.php	/^$channel = $connection->channel();$/;"	v
-channel	new_task.php	/^$channel = $connection->channel();$/;"	v
-channel	receive.php	/^$channel = $connection->channel();$/;"	v
-channel	receive_logs.php	/^$channel = $connection->channel();$/;"	v
-channel	receive_logs_direct.php	/^$channel = $connection->channel();$/;"	v
-channel	receive_logs_topic.php	/^$channel = $connection->channel();$/;"	v
-channel	rpc_client.php	/^        $this->channel = $this->connection->channel();$/;"	v
-channel	rpc_client.php	/^    private $channel;$/;"	v
-channel	rpc_server.php	/^$channel = $connection->channel();$/;"	v
-channel	send.php	/^$channel = $connection->channel();$/;"	v
+channel	1.simple_queue/receive.php	/^$channel = $connection->channel();$/;"	v
+channel	1.simple_queue/send.php	/^$channel = $connection->channel();$/;"	v
+channel	2.worker_queue/new_task.php	/^$channel = $connection->channel();$/;"	v
+channel	2.worker_queue/worker.php	/^$channel = $connection->channel();$/;"	v
+channel	3_1.pubsub/emit_log.php	/^$channel = $connection->channel();$/;"	v
+channel	3_1.pubsub/receive_logs.php	/^$channel = $connection->channel();$/;"	v
+channel	3_2.notify_system/email_worker.php	/^$channel = $connection->channel();$/;"	v
+channel	3_2.notify_system/send.php	/^$channel = $connection->channel();$/;"	v
+channel	3_2.notify_system/sms_worker.php	/^$channel = $connection->channel();$/;"	v
+channel	4.routing/emit_log_direct.php	/^$channel = $connection->channel();$/;"	v
+channel	4.routing/receive_logs_direct.php	/^$channel = $connection->channel();$/;"	v
+channel	5.topic/emit_log_topic.php	/^$channel = $connection->channel();$/;"	v
+channel	5.topic/receive_logs_topic.php	/^$channel = $connection->channel();$/;"	v
+channel	6.rpc/rpc_client.php	/^        $this->channel = $this->connection->channel();$/;"	v
+channel	6.rpc/rpc_client.php	/^    private $channel;$/;"	v
+channel	6.rpc/rpc_server.php	/^$channel = $connection->channel();$/;"	v
 channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function channel($channel_id = null)$/;"	f
 channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function channel($channel_id = null)$/;"	f
 channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $channel = $this->wait_frame_reader->read_short();$/;"	v
 channel	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function channel($channel_id = null)$/;"	f
-channel	worker.php	/^$channel = $connection->channel();$/;"	v
 channelAlert	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelAlert($reply_code, $reply_text = '', $details = array())$/;"	f
 channelClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
 channelClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function channelClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
@@ -379,22 +384,25 @@ connect	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    pub
 connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php	/^    public function connectOnConstruct()$/;"	f
 connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php	/^    public function connectOnConstruct()$/;"	f
 connectOnConstruct	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function connectOnConstruct()$/;"	f
-connection	emit_log.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	emit_log_direct.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	emit_log_topic.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	new_task.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	receive.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
-connection	receive_logs.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	receive_logs_direct.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	receive_logs_topic.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	rpc_client.php	/^        $this->connection = new AMQPStreamConnection($/;"	v
-connection	rpc_client.php	/^    private $connection;$/;"	v
-connection	rpc_server.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
-connection	send.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	1.simple_queue/receive.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	1.simple_queue/send.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	2.worker_queue/new_task.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	2.worker_queue/worker.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	3_1.pubsub/emit_log.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	3_1.pubsub/receive_logs.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	3_2.notify_system/email_worker.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	3_2.notify_system/send.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	3_2.notify_system/sms_worker.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	4.routing/emit_log_direct.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	4.routing/receive_logs_direct.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	5.topic/emit_log_topic.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	5.topic/receive_logs_topic.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
+connection	6.rpc/rpc_client.php	/^		$this->connection = new AMQPStreamConnection($conf['host'],$conf['port'],$/;"	v
+connection	6.rpc/rpc_client.php	/^    private $connection;$/;"	v
+connection	6.rpc/rpc_server.php	/^$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);$/;"	v
 connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        if ($this->is_open === false || $this->connection === null) {$/;"	v
 connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $this->connection = $connection;$/;"	v
 connection	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected $connection;$/;"	v
-connection	worker.php	/^$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');$/;"	v
 connectionBlocked	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionBlocked($reason = '')$/;"	f
 connectionClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
 connectionClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function connectionClose($reply_code, $reply_text = '', $class_id, $method_id)$/;"	f
@@ -455,21 +463,23 @@ context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^       
 context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $context = null,$/;"	v
 context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^        $this->context = $context;$/;"	v
 context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php	/^    protected $context;$/;"	v
-corr_id	rpc_client.php	/^        $this->corr_id = uniqid();$/;"	v
-corr_id	rpc_client.php	/^    private $corr_id;$/;"	v
+corr_id	6.rpc/rpc_client.php	/^        $this->corr_id = uniqid();$/;"	v
+corr_id	6.rpc/rpc_client.php	/^    private $corr_id;$/;"	v
 correctEndianness	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php	/^    protected function correctEndianness($byteStr)$/;"	f
 createMessage	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^    protected function createMessage($propertyReader, $contentReader)$/;"	f
 create_ssl_context	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^    private function create_ssl_context($options)$/;"	f
 current	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function current()$/;"	f
 currentTimeout	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^        $currentTimeout = $this->input->getTimeout();$/;"	v
-data	emit_log.php	/^    $data = "info: Hello World!";$/;"	v
-data	emit_log.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
-data	emit_log_direct.php	/^    $data = "Hello World!";$/;"	v
-data	emit_log_direct.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
-data	emit_log_topic.php	/^    $data = "Hello World!";$/;"	v
-data	emit_log_topic.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
-data	new_task.php	/^    $data = "Hello World!";$/;"	v
-data	new_task.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	2.worker_queue/new_task.php	/^    $data = "Hello World!";$/;"	v
+data	2.worker_queue/new_task.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	3_1.pubsub/emit_log.php	/^    $data = "info: Hello World!";$/;"	v
+data	3_1.pubsub/emit_log.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	3_2.notify_system/send.php	/^    $data = "info: Hello World!";$/;"	v
+data	3_2.notify_system/send.php	/^$data = implode(' ', array_slice($argv, 1));$/;"	v
+data	4.routing/emit_log_direct.php	/^    $data = "Hello World!";$/;"	v
+data	4.routing/emit_log_direct.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
+data	5.topic/emit_log_topic.php	/^    $data = "Hello World!";$/;"	v
+data	5.topic/emit_log_topic.php	/^$data = implode(' ', array_slice($argv, 2));$/;"	v
 data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^            $this->data = $this->encodeCollection($data);$/;"	v
 data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    protected $data = array();$/;"	v
 data	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function __construct(array $data = null)$/;"	v
@@ -583,8 +593,8 @@ fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^                $this->fallba
 fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
 fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
 fh	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^        $fh = fopen('\/tmp\/bytes', 'wb');$/;"	v
-fib	rpc_server.php	/^function fib($n)$/;"	f
-fibonacci_rpc	rpc_client.php	/^$fibonacci_rpc = new FibonacciRpcClient();$/;"	v
+fib	6.rpc/rpc_server.php	/^function fib($n)$/;"	f
+fibonacci_rpc	6.rpc/rpc_client.php	/^$fibonacci_rpc = new FibonacciRpcClient();$/;"	v
 fieldType	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $fieldType = AMQPAbstractCollection::getDataTypeForSymbol($this->rawread(1));$/;"	v
 fieldValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            $fieldValue = $this->read_value($fieldType, $returnObject);$/;"	v
 file	vendor/composer/ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
@@ -892,13 +902,14 @@ mn	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php
 ms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php	/^        $ms = MiscHelper::methodSig($method_sig);$/;"	v
 ms	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php	/^        $ms = MiscHelper::methodSig($method_sig);$/;"	v
 msb	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $msb = self::getLongMSB($hi);$/;"	v
-msg	emit_log.php	/^$msg = new AMQPMessage($data);$/;"	v
-msg	emit_log_direct.php	/^$msg = new AMQPMessage($data);$/;"	v
-msg	emit_log_topic.php	/^$msg = new AMQPMessage($data);$/;"	v
-msg	new_task.php	/^$msg = new AMQPMessage($/;"	v
-msg	rpc_client.php	/^        $msg = new AMQPMessage($/;"	v
-msg	rpc_server.php	/^    $msg = new AMQPMessage($/;"	v
-msg	send.php	/^$msg = new AMQPMessage('Hello World!');$/;"	v
+msg	1.simple_queue/send.php	/^$msg = new AMQPMessage('Hello World!');$/;"	v
+msg	2.worker_queue/new_task.php	/^$msg = new AMQPMessage($/;"	v
+msg	3_1.pubsub/emit_log.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	3_2.notify_system/send.php	/^$msg = new AMQPMessage($/;"	v
+msg	4.routing/emit_log_direct.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	5.topic/emit_log_topic.php	/^$msg = new AMQPMessage($data);$/;"	v
+msg	6.rpc/rpc_client.php	/^        $msg = new AMQPMessage($/;"	v
+msg	6.rpc/rpc_server.php	/^    $msg = new AMQPMessage($/;"	v
 msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $msg = $m[0];$/;"	v
 msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^            $msg = 'waiting for ' . implode(', ', $allowed_methods);$/;"	v
 msg	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php	/^            $msg = 'waiting for any method';$/;"	v
@@ -911,7 +922,7 @@ multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.p
 multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^    public function fileAck($delivery_tag = 0, $multiple = false)$/;"	v
 multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicAck($delivery_tag = 0, $multiple = false)$/;"	v
 multiple	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^    public function basicNack($delivery_tag = 0, $multiple = false, $requeue = true)$/;"	v
-n	rpc_server.php	/^    $n = intval($req->body);$/;"	v
+n	6.rpc/rpc_server.php	/^    $n = intval($req->body);$/;"	v
 n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^        $this->n = $n;$/;"	v
 n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php	/^    protected $n;$/;"	v
 n	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^                $n = $this->read_signed_long();$/;"	v
@@ -948,7 +959,7 @@ offset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $
 offset	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    protected $offset;$/;"	v
 old_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^                $old_key = key($this->publish_cache);$/;"	v
 old_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^                $old_key = key($this->prepare_content_cache);$/;"	v
-onResponse	rpc_client.php	/^    public function onResponse($rep)$/;"	f
+onResponse	6.rpc/rpc_client.php	/^    public function onResponse($rep)$/;"	f
 options	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php	/^        $options = array()$/;"	v
 or	vendor/composer/ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
 out	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $this->out = '';$/;"	v
@@ -1151,10 +1162,10 @@ res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^            
 res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^        $res = mb_substr($this->str, 0, $n, 'ASCII');$/;"	v
 res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $res = array();$/;"	v
 res	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^        $res = '';$/;"	v
-response	rpc_client.php	/^            $this->response = $rep->body;$/;"	v
-response	rpc_client.php	/^        $this->response = null;$/;"	v
-response	rpc_client.php	/^    private $response;$/;"	v
-response	rpc_client.php	/^$response = $fibonacci_rpc->call(30);$/;"	v
+response	6.rpc/rpc_client.php	/^            $this->response = $rep->body;$/;"	v
+response	6.rpc/rpc_client.php	/^        $this->response = null;$/;"	v
+response	6.rpc/rpc_client.php	/^    private $response;$/;"	v
+response	6.rpc/rpc_client.php	/^$response = $fibonacci_rpc->call(30);$/;"	v
 response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php	/^        $response = array();$/;"	v
 response	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php	/^        $response = array();$/;"	v
 responseValue	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^            $responseValue = $this->login_response->getvalue();$/;"	v
@@ -1172,7 +1183,7 @@ ret	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $ret = array();$/;"	v
 return	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    final public static function checkDataTypeIsSupported($type, $return = true)$/;"	v
 reuse	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php	/^    public function reuse($str)$/;"	f
 rewind	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php	/^    public function rewind()$/;"	f
-routing_key	emit_log_topic.php	/^$routing_key = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'anonymous.info';$/;"	v
+routing_key	5.topic/emit_log_topic.php	/^$routing_key = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'anonymous.info';$/;"	v
 routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^            $routing_key = isset($m[2]) ? $m[2] : '';$/;"	v
 routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $routing_key = $reader->read_shortstr();$/;"	v
 routing_key	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $routing_key = '',$/;"	v
@@ -1183,6 +1194,9 @@ s	vendor/php-amqplib/php-amqplib/spec/parser.php	/^        $s = preg_replace('#(
 safeClose	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected function safeClose()$/;"	f
 saveBytes	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php	/^    public static function saveBytes($bytes)$/;"	f
 search	vendor/composer/ClassLoader.php	/^                $search = $subPath.'\\\\';$/;"	v
+sec	2.worker_queue/worker.php	/^$sec =isset($argv[1])?$argv[1]:0;$/;"	v
+sec	3_2.notify_system/email_worker.php	/^$sec =isset($argv[1])?$argv[1]:0;$/;"	v
+sec	3_2.notify_system/sms_worker.php	/^$sec =isset($argv[1])?$argv[1]:0;$/;"	v
 select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function select($sec, $usec = 0)$/;"	f
 select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php	/^    abstract public function select($sec, $usec);$/;"	f
 select	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php	/^    public function select($sec, $usec)$/;"	f
@@ -1218,8 +1232,8 @@ set_connection_block_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connectio
 set_connection_unblock_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function set_connection_unblock_handler($callback)$/;"	f
 set_nack_handler	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function set_nack_handler($callback)$/;"	f
 set_return_listener	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^    public function set_return_listener($callback)$/;"	f
-severities	receive_logs_direct.php	/^$severities = array_slice($argv, 1);$/;"	v
-severity	emit_log_direct.php	/^$severity = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'info';$/;"	v
+severities	4.routing/receive_logs_direct.php	/^$severities = array_slice($argv, 1);$/;"	v
+severity	4.routing/emit_log_direct.php	/^$severity = isset($argv[1]) && !empty($argv[1]) ? $argv[1] : 'info';$/;"	v
 shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^        $shift = $this->bitcount % 8;$/;"	v
 shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^                $shift = 15;$/;"	v
 shift	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php	/^        $shift = 0;$/;"	v
@@ -1424,6 +1438,7 @@ wait_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnec
 wait_tune_ok	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    protected $wait_tune_ok;$/;"	v
 weight	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php	/^        $weight = $this->wait_content_reader->read_short();$/;"	v
 words	vendor/php-amqplib/php-amqplib/spec/parser.php	/^    $words = explode('-', $amqp_method);$/;"	v
+worker_mode	2.worker_queue/worker.php	/^$worker_mode =isset($argv[2])?$argv[2]:'Fair';$/;"	v
 write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php	/^        $write = false,$/;"	v
 write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php	/^    public function write($data)$/;"	f
 write	vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php	/^    public function write($s)$/;"	f

@@ -1,23 +1,24 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
-$connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
+require_once '../config.php';
+$connection = new AMQPStreamConnection($conf['host'],$conf['port'],$conf['user'], $conf['pwd'], $conf['vhost']);
 $channel = $connection->channel();
 
-$channel->exchange_declare('topic_logs', 'topic', false, false, false);
+$channel->exchange_declare('direct_logs', 'direct', false, false, false);
 
 list($queue_name, ,) = $channel->queue_declare("", false, false, true, false);
 
-$binding_keys = array_slice($argv, 1);
-if (empty($binding_keys)) {
-    file_put_contents('php://stderr', "Usage: $argv[0] [binding_key]\n");
+$severities = array_slice($argv, 1);
+if (empty($severities)) {
+    file_put_contents('php://stderr', "Usage: $argv[0] [info] [warning] [error]\n");
     exit(1);
 }
 
-foreach ($binding_keys as $binding_key) {
-    $channel->queue_bind($queue_name, 'topic_logs', $binding_key);
+foreach ($severities as $severity) {
+    $channel->queue_bind($queue_name, 'direct_logs', $severity);
 }
 
 echo " [*] Waiting for logs. To exit press CTRL+C\n";

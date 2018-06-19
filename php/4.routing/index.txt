@@ -1,0 +1,8 @@
+终端1:
+php receive_logs_direct.php warning error > logs_from_rabbit.log
+
+终端2:
+php receive_logs_direct.php info warning error
+
+终端3:
+php emit_log_direct.php error "Run. Run. Or it will explode."
