@@ -1,5 +1,9 @@
-服务开启在5672
+windows:
+安装后需要将rabbitmq变成手动
+C:\Users\Administrator\AppData\Roaming\RabbitMQ\db 里面内容都删掉
+D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.6\sbin>rabbitmq-plugins enable rabbitmq_management
 rabbitmq-server start
+服务开启在5672
 
 rabbit web:
 127.0.0.1:15672
